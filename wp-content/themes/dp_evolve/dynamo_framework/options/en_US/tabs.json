@@ -1,0 +1,12 @@
+[
+	["General Options", 	"options.basic",					"enabled"],
+	["Layout",	 			"options.layout",					"enabled"],
+	["Typography", 			"options.fonts",					"enabled"],
+	["Apperance", 			"options.themestyling",				"enabled"],
+	["Content Options", 	"options.contentstyling",			"enabled"],
+	["Advanced", 			"options.advanced",					"enabled"],
+	["Social API", 			"options.socialapi",				"enabled"],
+	["Branding Options", 	"options.themebranding",			"enabled"],
+	["SEO", 				"options.seo",						"enabled"],
+	["Woocommerce", 		"options.woocommerce",				"enabled"]
+]

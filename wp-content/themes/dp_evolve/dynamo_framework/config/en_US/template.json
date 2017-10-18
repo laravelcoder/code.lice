@@ -1,0 +1,17 @@
+{
+	"template": {
+		"name": "Evolve",
+		"update_name": "evolve",
+		"date": "10/03/2013",
+		"version": "1.0",
+		"description": "Dynamicpress blog and magazine Wordpress theme"
+	},
+	"developer_config": {
+		"visibility": {
+			"template_options": true,
+			"importexport": true,
+			"documentation": true,
+			"dynamicpress_website": true
+		}
+	}
+}

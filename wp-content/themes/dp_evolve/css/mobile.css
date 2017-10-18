@@ -1,0 +1,483 @@
+/**
+ *
+ * -------------------------------------------
+ * Mobile CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 11. Mobile code
+ *
+ *
+------------------------------------ */
+ 
+/* 11.1. Base elements
+==================================== */ 
+
+#dp-mainbody > div {
+	width: 100%;
+}
+/* archive / page 404 */
+.page404 .widget,
+.archivepage .widget {
+	margin: 0!important;
+	width: 100%!important;
+}
+
+/* images fix */
+#dp-mainbody img {
+	height: auto!important;
+	max-width: 100%!important;
+}
+
+
+
+/* column rules */
+#dp-sidebar {
+	padding: 20px 0!important;
+}
+
+#dp-sidebar .box {
+	float: none!important;
+	width: 100%!important;
+}
+
+.widget-area .col1,
+.widget-area .col2,
+.widget-area .col3,
+.widget-area .col4,
+.widget-area .col5,
+.widget-area .col6,
+.widget-area .box.last1,
+.widget-area .box.last2,
+.widget-area .box.last3,
+.widget-area .box.last4,
+.widget-area .box.last5 { 
+	float: none!important;
+	margin: 0 auto 20px auto!important; 
+	max-width: 320px; 
+	width: 100%; 
+}
+
+.widget-area .nth1,
+.widget-area .nth2,
+.widget-area .nth3,
+.widget-area .nth4,
+.widget-area .nth5,
+.widget-area .nth6 {
+	clear: both;
+}
+
+#dp-sidebar .box {
+	width: 100%;
+	clear: both!important;
+	float: none!important;
+	margin: 0 auto!important;
+	max-width: 320px!important;
+}
+
+#dp-sidebar .box {
+	float: none;
+	margin-top: 0!important;
+	margin-bottom: 12px!important;
+	width: 100%;
+}
+#dp-sidebar .box:nth-child(2n+1) {
+	clear: both!important;}
+
+#dp-sidebar .box:nth-child(odd) {
+	padding-right: 0px;	
+}
+#dp-sidebar .box:nth-child(even) {
+	padding-left: 0px;
+}
+
+#dp-mainbody-columns > section {
+	clear: both!important;
+	width: 100%!important;	
+}
+
+
+/* 11.2. Header elements
+==================================== */
+
+/* 11.3. Posts
+==================================== */
+
+article.post, 
+article.page {
+	padding-left: 0!important;
+}
+
+
+.tag-page article hgroup h1,
+.category-page article hgroup h1,
+.search-page article hgroup h1,
+.home article hgroup h1,
+.archive article hgroup h1 {
+	margin-top: 0!important;
+}
+
+#comments {
+	margin-left: 0!important;
+}
+
+
+/* 11.4. Other elements
+==================================== */
+
+#dp-social-icons {
+	display: none;
+}
+.dp-columns > div {
+	padding: 10px 0!important;
+	width: 100%!important;
+}
+
+/* 11.5. Device classes
+==================================== */
+
+.onlyDesktop {
+	display: none!important;
+}
+
+.onlyTablets {
+	display: none!important;
+}
+
+.onlySmartphones {
+	display: block!important;
+}
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;}
+	
+/* 13.4. Widgets
+==================================== */
+
+/* NSP adjustments */
+.dp-nsp .dp-nsp-art {
+	border-top: 1px solid #eee!important;
+	border-left: none!important;
+	padding-bottom: 20px!important;
+	padding-top: 20px!important;
+	width: 100%!important;
+}
+.dp-nsp .dp-nsp-art:first-child {
+	border-top: none!important;
+}
+
+/* mobilelayout */
+.bigtitle .dp-nsp-content-wrap {
+	clear: both;
+	padding-top: 10px;
+}
+
+/* Tabs adjustments */
+.dp-tabs-nav {
+	height: auto!important;
+	overflow: hidden;
+}
+
+.dp-tabs-nav li {
+	padding: 5px 0!important;
+	width: 100%!important;
+}
+
+@media (min-width: 420px) and (max-width: 580px) {
+	.box.mobilelayout .dp-nsp .dp-nsp-art,
+	.box.nsphover .dp-nsp .dp-nsp-art {
+		border-top: none!important;
+		clear: none!important;
+		width: 100%!important;
+	}
+	
+	.box.nsphover .dp-nsp .dp-nsp-art .dp-nsp-header {
+		font-size: 16px!important;
+	}
+	
+	.box.nsphover .dp-nsp .dp-nsp-art .dp-nsp-text {
+		font-size: 11px!important;
+	}	
+}
+
+.box.nsphover .dp-nsp .dp-nsp-art {
+	padding-bottom: 10px!important;
+	padding-top: 0!important;
+}
+
+/* NSP */
+.box.header .dp-image-link .dp-nsp-header {
+	font-size: 14px!important;
+}
+
+.dp-nsp-arts, .dp-nsp-links {
+	clear: both;
+	float: left!important;
+	width: 100%!important;
+}
+
+.box.gallery .dp-nsp-art {
+	border-top: none!important;
+	float: left;
+	padding-top: 3px!important;
+	padding-bottom: 3px!important;
+	width: auto!important;
+}
+
+.dp-nsp .dp-nsp-art {
+	border-top: 1px solid #eee!important;
+	border-left: none!important;
+	padding-bottom: 20px!important;
+	padding-top: 20px!important;
+	width: 100%!important;
+}
+
+
+.dp-nsp .dp-nsp-art:first-child {
+	border-top: none!important;
+}
+
+
+/* GK Tabs */
+.dp-tabs-wrap > ol.dp-tabs-nav > li,
+.dp-tabs-wrap > ol.dp-tabs-nav > li.active, 
+.dp-tabs-wrap > ol.dp-tabs-nav > li.active:hover {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #e5e5e5!important;
+	border-right: none!important;
+	border-top: none!important;
+	width: 100%;
+}
+
+/* Search */
+#dp-search .field {
+	width: 120px!important;
+}
+
+/* Popup login */
+#dp-popup-login {
+	margin-left: -150px!important;
+	width: 300px!important;
+}
+
+#dp-popup-login #loginform {
+	padding-left: 0!important;
+}
+
+#dp-popup-login #loginform ul,
+#dp-popup-login #loginform .login-remember, 
+#dp-popup-login #loginform .login-submit {
+	margin-left: 0!important;
+}
+
+
+@media only screen and (max-width: 320px),
+only screen and (max-device-width: 320px) and (-moz-max-device-pixel-ratio: 1.5),
+only screen and (max-device-width: 320px) and (-o-max-device-pixel-ratio: 1.5/1),
+only screen  and (max-device-width: 320px) and (-webkit-max-device-pixel-ratio: 1.5),
+only screen and (max-device-width: 320px) and (max-device-pixel-ratio: 1.5),
+only screen and (max-device-width: 640px) and (-moz-min-device-pixel-ratio: 2),
+only screen and (max-device-width: 640px) and (-o-min-device-pixel-ratio: 2/1),
+only screen and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2),
+only screen and (max-device-width: 640px) and (min-device-pixel-ratio: 2) {
+	
+	#dp-mainbody table {
+		width: 100%!important;
+	}
+
+	.cart-collaterals .cart_totals {
+		float: none !important;
+		width: 100%;
+	}
+
+#dp-mainmenu-toggle { 
+ 
+    margin-top: 0px !important;
+    width: 10% !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    float: right !important;
+    top: 100px!important;
+    background: #5BC500;
+    padding: 9px;
+}
+
+.clinic-locator-button a.odd-btn {
+    background: #5BC500;
+    width: 82%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Global-bold", "Arial", sans-serif;
+    height: 30px !important;
+    padding: 10px !important;
+    font-size: 1.3em;
+    position: absolute !important;
+    margin-top: -26px;
+    margin-left: 10px;
+    line-height: 30px !important;
+    z-index: 50 !important;
+    top: 100px!important;
+    left: 0px !important;
+}
+
+	table.cart td.actions .coupon {
+		margin-right: 0;
+		padding-bottom: 8px;
+		float: none;
+	}
+
+	#coupon_code {
+		width: 48%;
+		margin-right: 2%;
+	}
+
+	.btn-shopping-cart-update,
+	.btn-shopping-cart-apply {
+		height: 34px;
+		width: 50% !important;
+		max-width: 140px;
+		padding: 0 !important;
+		font-size: 12px !important;
+	}
+
+	portfolio-three .portfolio-item, .portfolio-four .portfolio-item, .portfolio-six .portfolio-item {
+		width:100%;
+	}
+	.portfolio-wrapper {}
+
+}
+
+@media only screen and (max-width: 480px) and (orientation:landscape), only screen and (max-device-width: 480px) and (-moz-max-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (max-device-width: 480px) and (-o-max-device-pixel-ratio: 1.5/1) and (orientation:landscape), only screen  and (max-device-width: 480px) and (-webkit-max-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (max-device-width: 480px) and (max-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (max-device-width: 960px) and (-moz-min-device-pixel-ratio: 2) and (orientation:landscape), only screen and (max-device-width: 960px) and (-o-min-device-pixel-ratio: 2/1) and (orientation:landscape), only screen and (max-device-width: 960px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:landscape), only screen and (max-device-width: 960px) and (min-device-pixel-ratio: 2) and (orientation:landscape) {
+	#dp-mainbody table {
+		width: 420px!important;
+	}
+}
+
+
+
+
+/* 11.5. Device classes
+==================================== */
+
+
+.onlyDesktop {
+	display: none!important;
+}
+
+
+.onlyTablets {
+	display: none!important;
+}
+
+
+.onlySmartphones {
+	display: block!important;
+}
+
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;
+}
+
+
+/* 11.6. RTL Support
+==================================== */
+
+
+html[dir="rtl"] article.post, 
+html[dir="rtl"] article.page {
+	padding-right: 0!important;
+}
+
+
+html[dir="rtl"] aside.meta dt.date + dd {
+	left: auto;
+	padding-left: 0!important;
+	padding-right: 16px!important;
+	right: 0;
+}
+
+
+html[dir="rtl"] aside.meta dt,
+html[dir="rtl"] aside.meta dd {
+	float: right;
+	padding-left: 0;
+	padding-right: 106px;
+}
+
+
+html[dir="rtl"] aside.meta dd {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+
+html[dir="rtl"] .tag-page article aside.meta time,
+html[dir="rtl"] .category-page article aside.meta time,
+html[dir="rtl"] .search-page article aside.meta time,
+html[dir="rtl"] .home article aside.meta time,
+html[dir="rtl"] .archive article aside.meta time {
+	float: right!important;
+}
+
+
+html[dir="rtl"] .tag-page article aside.meta dd.format,
+html[dir="rtl"] .category-page article aside.meta dd.format,
+html[dir="rtl"] .search-page article aside.meta dd.format,
+html[dir="rtl"] .home article aside.meta dd.format,
+html[dir="rtl"] .archive article aside.meta dd.format {
+	float: right!important;
+}
+
+
+html[dir="rtl"] #comments {
+	margin-right: 0!important;
+}
+
+.happy-clients-photo img {
+	float: none;
+	margin: 0 auto 15px auto!important;
+}
+
+.happy-clients-cite:after, .happy-clients-cite:before {
+	display:none;
+}
+
+
+.button-group {
+	width:280px;
+	overflow:visible;
+}
+.button-group .title { font-size:12px!important}
+.button-group .subtitle { font-size:9px!important}
+
+.item12 .portfolio-item, .item16 .portfolio-item, .item20 .portfolio-item, .item25 .portfolio-item, .item33 .portfolio-item {width:100%}
+ul.products li.product {
+	width: 100%!important;
+}
+ul.products.product-columns-2 li.product, .columns-2 ul.products li.product  {
+	width: 100%!important;
+}
+ul.products.product-columns-3 li.product, .columns-3 ul.products li.product {
+	width: 100%!important;
+}
+ul.products.product-columns-4 li.product, .columns-4 ul.products li.product {
+	width: 100%!important;
+}
+ul.products.product-columns-5 li.product, .columns-5 ul.products li.product {
+	width: 100%!important;
+}
+ul.products.product-columns-6 li.product, .columns-6 ul.products li.product {
+	width: 100%!important;
+}
+ul.products.product-columns-8 li.product, .columns-8 ul.products li.product {
+	width: 100%!important;
+}
+ul.products li.first {
+	clear: none;
+}

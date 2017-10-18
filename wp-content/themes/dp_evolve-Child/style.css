@@ -1,0 +1,2886 @@
+/*
+Theme Name:     Evolve Child
+Theme URI:      http://www.dynamicpress.eu
+Description:    Child theme for the Evolve theme
+Author:         Dynamicpress
+Author URI:     http://www.dynamicpress.eu
+Template:       dp_evolve
+Version:        1.2
+*/
+.steven-hyde {
+    display: none !important;
+}
+
+.dp-page-wrap .dp-recent-post-widget a:hover, .dp-page-wrap .widget_dp_comments a:hover, .dp-page-wrap header h2 a:hover, .dp-page-wrap .dp-nsp-header .box {
+    margin: 50px 0 !important;
+}
+
+a.hotline-bling {
+    background: #F8ED33;
+    padding: 10px 12px;
+    color: #000;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: "Global-light", Arial, sans-serif;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+a.hotline-bling:hover {
+    opacity: .9;
+}
+
+#dp-mainbody {
+    padding: 0 100px;
+}
+
+.clinic-container {
+    position: absolute;
+    width: 100%;
+    z-index: 80;
+}
+
+.single-landing_page .clinic-container {
+    display: none !important;
+}
+
+#play-video {
+    color: #FFF;
+}
+
+.our-treatment {
+    width: 100%;
+}
+
+.play-video-box {
+    width: 25%;
+}
+
+.about-heading {
+    font-size: 1.75em !important;
+    line-height: 60px;
+}
+
+#sl_map {
+    height: 600px;
+    width: 100%;
+}
+
+.page-id-11 .block {
+    margin-top: 0px;
+}
+
+p.match {
+    margin-top: 40px;
+}
+
+p.mis-match {
+    margin-top: -40px;
+}
+
+.help p {
+    font-size: 1.4em;
+}
+
+#wpcf7-f6273-o1 textarea {
+    height: 165px !important;
+}
+
+.top-buttons a {
+    font-family: "Global-light", Arial, sans-serif;
+    letter-spacing: .13em;
+}
+
+.dp-subheader-wraper {
+    background: #78BE20 !important;
+}
+
+#dp-page-box { /*background: #ECEBE9 !important;*/
+}
+
+#dp-head-wrap {
+    background-color: #fff !important;
+}
+
+#dp-mainmenu-collapse .sf-menu > li {
+    margin-left: 20px;
+}
+
+/*#dp-mainbody-columns > aside {
+    width: 26%;
+}
+#dp-mainbody-columns > section {
+    width: 74%;
+}*/
+.interior .block {
+    margin-top: 0px;
+}
+
+#footer-social-bar a:before, #footer-social-bar a:after {
+    line-height: 25px !important;
+    font-size: 25px !important;
+}
+
+#footer-social-bar a {
+    width: 35px;
+    height: 35px;
+}
+
+#footer-social-bar a:before, #footer-social-bar a:after {
+    color: #5BC500 !important;
+}
+
+#main-menu { /*width: 100%;*/
+}
+
+#dp-top-bar {
+    display: none;
+}
+
+#dp-footer-wrap {
+    background: #D9D9D7 !important;
+}
+
+#dp-footer .box-title, #dp-footer h2 {
+    color: #646569 !important;
+}
+
+#dp-footer, #dp-footer .box a {
+    color: #646569 !important;
+}
+
+@media screen and (max-width: 580px) {
+    #dp-footer #text-6, #dp-footer #text-5 {
+        float: none !important;
+        margin: 0 auto 20px auto !important;
+        max-width: 320px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #text-5 {
+        position: relative;
+        min-height: 200px;
+        margin-bottom: 20px;
+    }
+
+    #text-5 > div {
+        position: absolute; /*left: 100px;*/
+    }
+
+    .btn {
+        padding: 15px 10px;
+    }
+
+    .play-video-box {
+        width: 33%;
+    }
+}
+
+#dp-footer .widget_text {
+    float: none !important;
+}
+
+.locate-me h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.dark-grey .fa-play {
+    color: #5BC500;
+}
+
+.alert {
+    background: #5BC500;
+    color: #fff;
+}
+
+.alert h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/*** menu ****/
+.navigation {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main-menu {
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    float: none;
+}
+
+.clinic-locator-button.desktop {
+    width: 100%;
+    border-top: 5px solid #5BC500;
+    margin-top: -44px;
+    position: relative;
+}
+
+.clinic-container .clinic-locator-button.desktop {
+    padding-left: 0;
+    border: none;
+}
+
+
+
+.clinic-locator-button a.odd-btn {
+    position: relative;
+    float: left;
+    background: url('/wp-content/uploads/2016/07/clinic-locator-button.png');
+    width: 145px;
+    height: 53px;
+    color: #fff !important;
+    background-size: 100%;
+    z-index: 80; /*margin-top: -44px;*/
+}
+
+.clinic-locator-button .crowdfunding-campaign-container {
+    width: 100%;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 79;
+    padding: 0 100px 0 145px;
+    box-sizing: border-box;
+}
+
+.crowdfunding-campaign-container-inner {
+    display:none;
+}
+
+.clinic-locator-button .crowdfunding-campaign-container .crowdfunding-campaign-container-inner {
+    position: relative;
+}
+
+.clinic-locator-button .crowdfunding-campaign-container .crowdfunding-campaign-container-inner .crowdfunding-campaign {
+    width: 98%;
+    position: absolute;
+    right: 0;
+    left: auto;
+    background-color: #E7E7E9;
+    font-size: 12px;
+    line-height: 36px;
+    text-align: right;
+    padding-right: 1%;
+    padding-left: 1%;
+    color: #646569;
+    z-index: 79;
+}
+@media screen and (max-width: 1230px) {
+    .clinic-locator-button .crowdfunding-campaign-container {
+        max-width:1115px;
+        padding-right:0;    overflow: hidden;
+    }
+}
+.sf-menu a {
+    font-size: 14px;
+    font-family: "Global-md", Arial, sans-serif;
+    letter-spacing: .1em;
+}
+
+ul.sf-menu > li > ul > li a {
+    font-family: "Global-light", Arial, sans-serif;
+    font-weight: normal;
+}
+
+.sf-menu li.root a:hover, .sf-menu li.root.current-menu-item a {
+    color: #5BC500 !important;
+}
+
+.sticky {
+    position: fixed;
+    z-index: 80;
+    top: 110px;
+    width: 100%;
+    left: 0;
+}
+
+.admin-bar .sticky {
+    top: 137px;
+}
+
+.sf-menu li {
+    height: 50px;
+}
+
+#main-menu > li.megamenu a.column-header {
+    font-size: 14px;
+}
+
+/*.sticky .clinic-locator-button.desktop a {
+    margin-top: 48px;
+    top: 67px;
+    z-index: 100;
+    position: fixed;
+}
+.sticky .locate-me {
+    position: fixed;
+    top: 67px;
+    z-index: 80;
+    width: 100%;
+    left: 0;
+    margin: 0 auto;
+}
+.sticky-btn{
+    position: fixed;
+    top: 67px;
+}*/
+.sf-menu li a {
+    padding: 15px 0 0 0;
+}
+
+#login input#username, #login input#password {
+    width: 100%;
+    background-color: #F8FAFC;
+    border: 1px solid #e5e5e5;
+}
+
+.interior-excerpt {
+    padding: 45px;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rememberpass {
+    margin-top: 10px;
+}
+
+.the-container {
+    width: 61%;
+    margin: 0 auto;
+}
+
+.page-id-3295 .the-container {
+    width: 100%;
+}
+
+.near-me.interior-search .the-container {
+    width: 100%;
+}
+
+.sf-menu ul li a, .sf-menu ul ul li a, .sf-menu ul ul ul li a {
+    color: #000 !important;
+}
+
+article {
+    margin: 50px 0 40px 0 !important;
+    border-bottom: none !important;
+}
+
+.large .date-container .month h4 {
+    color: #333;
+}
+
+.content > p:first-child {
+    padding: 0 !important;
+}
+
+#dp-page-box {
+    box-shadow: none !important;
+}
+
+.locate-me form {
+    /*width: 300px;
+       margin: 0 auto;*/
+}
+
+.locate-me .search_field.by_name {
+    width: 69%;
+    float: left;
+}
+
+.locate-me .addressSearch {
+    padding: 20px;
+    height: 44px;
+}
+
+.odd-btn img {
+    width: 25px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+.services-box-animated .back h3 {
+    font-size: 16px;
+}
+
+#dp-sticky-navigation-wrapper img { /* width: 100%; */
+    height: 47px !important;
+    max-height: 300px !important;
+}
+
+/*** fonts ****/
+@font-face {
+    font-family: Global-light;
+    src: url(/wp-content/themes/dp_evolve-Child/fonts/global-light.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Global-bold;
+    src: url(/wp-content/themes/dp_evolve-Child/fonts/global-bold.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Global-IT;
+    src: url(/wp-content/themes/dp_evolve-Child/fonts/global-light-italic.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Global-bold-IT;
+    src: url(/wp-content/themes/dp_evolve-Child/fonts/global-bold-italic.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Global-md;
+    src: url(/wp-content/themes/dp_evolve-Child/fonts/global-medium.otf);
+    font-weight: normal;
+}
+
+.mobile {
+    display: none;
+}
+
+.locations .name {
+    color: #5BC500;
+    font-size: 1.5em;
+    font-family: "Global-bold", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.location {
+    padding-left: 30px !important;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #646569 !important;
+    min-height: 140px;
+}
+
+.interior-main {
+    margin-bottom: 45px;
+}
+
+.sf-menu li.root.current-menu-item a {
+    box-shadow: none !important;
+}
+
+/*.dp-page-wrap a, article section.content a, article section.intro a {
+    color: #5BC500 !important;
+}*/
+.location .phone {
+    margin-bottom: 25px;
+}
+
+.location a.get-info {
+    padding: 15px 20px;
+    margin-top: 20px !important;
+    background: #646569;
+    color: #fff !important;
+    width: 42px;
+    float: none;
+    opacity: 1;
+    text-transform: uppercase;
+    margin-right: 15px;
+    display: inline;
+    
+}
+
+.location .phone a {
+    color: #646569 !important;
+}
+
+.location a.get-info:hover {
+    opacity: .9;
+}
+
+.store-locator .store-locator-list .location.active {
+    background-color: #D7D7D4 !important;
+}
+
+.near-me {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    min-height: 60px;
+}
+
+.near-me.interior-search {
+    /*width: 752px;*/
+    width: 100%;
+}
+
+.near-me button {
+    width: 100%;
+}
+
+.page-id-3295 a.odd-btn {
+    display: none;
+}
+
+.near-me input#addressSearch {
+    width: 97%;
+    height: 47px;
+    padding: 13px 10px;
+}
+
+.near-me .search_field.by_name {
+    float: left;
+    width: 60%;
+}
+
+.near-me .submit_field {
+    float: left;
+    width: 40%;
+}
+
+h3.paddy {
+    padding: 34px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Global-light", Arial, sans-serif !important;
+    letter-spacing: 0.0725em;
+}
+
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong, h3.box-title {
+    font-family: "Global-md", Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.0725em;
+}
+
+/*** home page blocks ****/
+.grey-w-border {
+    background: #d9dad7;
+}
+
+.grass {
+    background: #5BC500;
+}
+
+.tangerine {
+    background: #FF9E1B;
+}
+
+.greyjoy {
+    padding: 15px 0 !important;
+    border-top: 5px solid #5BC500;
+    margin-top: 15px;
+}
+
+.interior-excerpt p {
+    font-size: 1.2em;
+}
+
+.interior-main h2 {
+    background: #5BC500;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Global-md", Arial, sans-serif !important;
+    font-weight: normal;
+}
+
+.interior-main img {
+    width: 100%;
+}
+
+.grey-w-border h2 {
+    font-size: 20px;
+}
+
+.no-pad {
+    padding: 0 !important;
+}
+
+.ocean {
+    background: #4BC9E2;
+}
+
+.raspberry {
+    background: #CF0058;
+}
+
+.grey-w-border .front h3 {
+    background: #d9dad7;
+}
+
+.grass .front h3 {
+    background: #5BC500;
+}
+
+.greyjoy h3 {
+    color: #636669;
+    text-transform: uppercase;
+    font-family: "Global-light", Arial, sans-serif !important;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.green-box {
+    color: #fff;
+    padding: 20px;
+    font-size: 21px;
+    text-align: center;
+    font-family: "Global-light", Arial, sans-serif !important;
+}
+
+.green-box a {
+    color: #fff !important;
+    font-family: "Global-md", Arial, sans-serif !important;
+}
+
+.tangerine .front h3 {
+    background: #FF9E1B;
+}
+
+.ocean .front h3 {
+    background: #4BC9E2;
+}
+
+.raspberry .front h3 {
+    background: #CF0058;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links a {
+    width: 70px;
+    color: #fff;
+    background: #646569;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 10px;
+    transition: all 2s ease;
+}
+
+.social-links i.fa {
+    font-size: 2.3em;
+    padding: 20px;
+}
+
+.fb:hover {
+    background: #3b5998;
+}
+
+.pin:hover {
+    background: #cb2027;
+}
+
+.you:hover {
+    background: #bb0000;
+}
+
+.vim:hover {
+    background: #aad450;
+}
+
+.tw:hover {
+    background: #00aced;
+}
+
+.li:hover {
+    background: #007bb6;
+}
+
+.gp:hover {
+    background: #dd4b39;
+}
+
+.rss:hover {
+    background: #ff6600;
+}
+
+.locate-me {
+    display: none;
+    background: #5BC500;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-top: -44px;
+    margin-bottom: 44px;
+}
+
+.pagination a:hover, .pagination .current, .dp_icon.accented, #dp-popup-login input[type="submit"]:hover, #dp-popup-login .button:hover, #back-to-top:hover, .button_sc, .button_sc.color, .button_sc.dark:hover, .button_sc.light:hover, .button_sc.line:hover, .button, .plan-features .button-area a:hover, .premium.plan h3, .premium .plan-features, .tp-bullets.simplebullets.round .bullet:hover, .tp-bullets.simplebullets.round .bullet.selected, .highlight.color, .button-group .button.rightbutton, .button-group .button.leftbutton:hover, button, a.dp-button, input[type="button"], input[type="submit"], .dp-readon:hover, .readon:hover, .avatar:hover img, #respond input[type="submit"], .wpcf7 input[type="submit"], #searchform #searchsubmit, .medium .date-container, .summary.link, .summary.quote, .summary.status, .accent-bg-1, #dp-cookie-law, #dp-popup-cookie-law .close, .dp-thumb-container .thumb-overlay, .dp-thumb-container .thumb-overlay, .box #wp-calendar #today, .medium .date-container, .flexgallery .flexslider .flex-next:hover, .flexgallery .flexslider .flex-prev:hover, .flexgallery .gallery-post-title, .flex-control-paging li a.flex-active, .incontent_content .flex-direction-nav .flex-next:hover, .incontent_content .flex-direction-nav .flex-prev:hover, .easyPieChart2, .skill-bar span, .toggle.faq .toggle_title.current, .services-box-animated .back, .circle-2, .square-2, .featured-box:hover > .circle, .featured-box:hover > .circle span, .featured-box:hover > .circle-1, .featured-box:hover > .square-1, .jp-volume-bar-value, .jp-volume-bar-value.frame_caption .captions .cap2, .tipsy-inner, .jp-play-bar, .dp_icon.accented, .vtabs li.current, .social a:hover {
+    background-color: #636669 !important;
+    padding: 15px 17px;
+    text-transform: uppercase;
+}
+
+.services-box-animated .front h3 {
+    text-align: left;
+    padding: 20px 20px 15px 25px;
+    text-transform: uppercase;
+    color: #636669;
+    margin-top: -54px;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.services-box-animated .inner {
+    border-bottom: 5px solid #5BC500;
+}
+
+.block {
+    padding: 20px 20px 15px 20px;
+    margin-top: -100px;
+    z-index: 50;
+    position: relative;
+}
+
+p.wpsm-show, p.wpsm-hide {
+    background: #636669;
+    color: #d9dad7 !important;
+    text-transform: uppercase;
+    width: 120px;
+    padding: 15px 17px;
+    text-align: center !important;
+    margin-top: 20px;
+    opacity: 1;
+}
+
+p.wpsm-show:hover, p.wpsm-hide:hover {
+    opacity: .9;
+    text-decoration: none;
+}
+
+/*p.wpsm-hide:before {
+    content: "\f056";
+    font-family: "fontello";
+}
+p.wpsm-show:before {
+    content: "\f055";
+    font-family: "fontello";
+}*/
+p.wpsm-show .fa, p.wpsm-hide .fa {
+    color: #5BC500;
+}
+
+.block h2 {
+    text-transform: uppercase;
+    color: #636669;
+}
+
+a.dark-grey {
+    background: #636669;
+    color: #d9dad7 !important;
+    text-transform: uppercase;
+}
+
+.btn {
+    padding: 18px 32px;
+}
+
+.three-fourths {
+    width: 60%;
+}
+
+.one-fourth {
+    width: 24%;
+}
+
+.last {
+    margin-right: 0px !important;
+}
+
+.over-third {
+    width: 35%;
+}
+
+.one-fourth, .over-third {
+    float: left;
+    margin-right: 30px; /*margin-top: 30px;*/
+}
+
+.clearfix {
+    clear: both;
+}
+
+.left-yeah h3 {
+    font-size: 16px;
+    float: left;
+}
+
+.services-box-animated .front {
+    border-radius: 0px !important;
+    padding: 0px !important;
+}
+
+.services-box-animated .front img {
+    width: 100%;
+}
+
+.services-box-animated .inner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.menu-title {
+    text-transform: uppercase;
+}
+
+/*** service box flip overlay images ***/
+.front p strong {
+    font-family: "Global-md", Arial, sans-serif !important;
+}
+
+/*.treat .inner {
+    border-bottom-color: #fff ;
+}*/
+.services-box-animated .front {
+    border: none !important;
+}
+
+.pad-me {
+    margin-top: 39px !important;
+}
+
+.squeeze .wpsm-content {
+    margin-top: -18px;
+}
+
+.give-me-space .show_more {
+    margin-top: 32px;
+}
+
+.give-me-space .wpsm-content {
+    margin-top: -32px;
+}
+
+.front p {
+    margin-top: -230px;
+    margin-bottom: 67px;
+    padding: 30px;
+    font-size: 34px;
+    color: #fff;
+    font-family: "Global-md", Arial, sans-serif !important;
+}
+
+.front p span {
+    font-family: "Global-bold", Arial, sans-serif !important;
+    text-transform: uppercase;
+}
+
+.lice-alerts .back {
+    background: url('/wp-content/uploads/2016/07/lice-alert-slide.jpg') !important;
+    background-size: cover !important;
+}
+
+.doc .back {
+    background: url('/wp-content/uploads/2016/07/lice-alert-slide.jpg') !important;
+    background-size: cover !important;
+}
+
+.treat .back {
+    background: url('/wp-content/uploads/2016/06/LCA_Home_TreatLice_EDITED.jpg') !important;
+    background-size: cover !important;
+}
+
+.technology .back {
+    background: url('/wp-content/uploads/2016/07/technology-overlay.jpg') !important;
+    background-size: cover !important;
+}
+
+.care .back {
+    background: url('/wp-content/uploads/2016/07/care_options-overlay.jpg') !important;
+    background-size: cover !important;
+}
+
+.super .back {
+    background: url('/wp-content/uploads/2016/07/Super_Lice_FAQ-overlay.jpg') !important;
+    background-size: cover !important;
+}
+
+.parents .back {
+    background: url('/wp-content/uploads/2017/01/jumping-on-the-bed-overlay-1.png') !important;
+    background-size: cover !important;
+}
+
+/*.treat .inner{
+    background: url('/wp-content/uploads/2016/06/Treat_Lice.jpg');
+    background-size: cover;
+}*/
+.dp-readon {
+    background-color: #636669 !important;
+    padding: 15px 17px !important;
+    text-transform: uppercase !important;
+}
+
+.recent-post-widget .thumbnail:hover, .tp-bullets.simplebullets.round .bullet.selected, .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span, blockquote, .button_sc, .button_sc.color, .button_sc.dark:hover, .button_sc.light:hover, .button_sc.line, .services-box-animated .back, .circle-1, .square-1, .circle-2-line, .square-2-line, .incontent_content .flex-direction-nav .flex-next:hover, .incontent_content .flex-direction-nav .flex-prev:hover, .accent-border-1, .accent-underline, .readon, .readon2, .dp-readon, .pagination a:hover, .pagination .current, .theme-default .nivo-controlNav a.active, .divider_line_accented, .accent-border-1 { /* border-color: #2DCD73; */
+    border: none !important;
+}
+
+/*** menu ***/
+#mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-item > a.mega-menu-link {
+    color: #6D6E72 !important;
+    background: none !important;
+    opacity: 1;
+}
+
+#mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-item > a.mega-menu-link:hover {
+    opacity: .9;
+}
+
+#mega-menu-wrap-mainmenu {
+    background: none !important;
+    display: table;
+    margin: 0 auto;
+}
+
+#mega-menu-wrap-mainmenu #mega-menu-mainmenu li.mega-menu-flyout.mega-menu-item-has-children > a.mega-menu-link:after, #mega-menu-wrap-mainmenu #mega-menu-mainmenu li.mega-menu-flyout li.mega-menu-item-has-children > a.mega-menu-link:after, #mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-item-has-children > a.mega-menu-link:after {
+    content: '\e8b9' !important;
+    font-family: fontello !important;
+}
+
+/*#mega-menu-wrap-mainmenu .mega-menu-toggle {
+    display: none !important;
+}*/
+/*** header buttons ***/
+.top-buttons {
+    float: right;
+}
+
+.connect li {
+    float: left;
+    list-style: none;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.connect li a {
+    padding: 10px 15px;
+    background: #E7E7E9;
+    text-transform: uppercase;
+    color: #646569;
+}
+
+.connect li a span {
+    font-weight: bold;
+}
+
+/**** tooltip ****/
+/*For tooltip target element that has set class="tooltip" */
+.tooltip {
+    text-decoration: none;
+    border-bottom: 1px dotted #36c;
+    color: #36c;
+    outline: none;
+}
+
+/*For tooltip box*/
+#mcTooltip {
+    line-height: 20px;
+    border-width: 2px;
+    color: #DDDDDD;
+    border-color: #666666;
+    padding: 20px;
+    font-size: 12px;
+    font-family: Verdana, Arial;
+    border-radius: 3px;
+    background-color: #373737;
+    background-image: url(bg_ptn.png);
+}
+
+#mcTooltip, #mcttCo b {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* For hyperlink within tooltip */
+#mcTooltip a {
+    color: #5BC500;
+}
+
+/*Close button. Available when sticky or overlay has been set to true, or is on touch-enabled devices. */
+#mcttCloseButton {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    margin-top: 4px; /*background:black;*/
+}
+
+/*Close button X symbol*/
+#mcttCloseButton:after {
+    font: normal 38px/18px arial, sans-serif;
+    color: #999;
+    top: 0;
+    left: -2px;
+}
+
+/*Give the close button a bigger size on smaller devices*/
+@media only screen and (max-width: 736px) {
+    #mcttCloseButton {
+        width: 28px;
+        height: 28px;
+    }
+
+    #mcttCloseButton:after {
+        font-size: 48px;
+        line-height: 28px;
+    }
+}
+
+/* Useful when overlay has been set to true or 1 in JS */
+#mcOverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    z-index: 4;
+}
+
+#mcTooltip img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*The settings below should remain unchanged*/
+#mcTooltipWrapper {
+    position: absolute;
+    visibility: hidden;
+    overflow: visible;
+    z-index: 9999999999;
+    top: -2000px;
+}
+
+#mcTooltip {
+    float: left;
+    border-style: solid;
+    position: relative;
+    overflow: hidden;
+}
+
+.mcTooltipInner {
+    float: left;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#mcttCo, #mcttCo b {
+    position: absolute;
+    overflow: hidden;
+}
+
+/*compatible with bootstrap*/
+#mcTooltip, #mcTooltip div {
+    box-sizing: content-box;
+}
+
+/*** landing page ****/
+.cool-title {
+    background: #5BC500;
+    color: #fff;
+    padding: 15px;
+    font-family: "Global-md", Arial, sans-serif !important;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.multiple-treatments {
+    color: #636669;
+    text-transform: uppercase;
+    font-family: "Global-md", Arial, sans-serif !Important; /*margin-top: 30px;*/
+}
+
+.landing-title {
+    margin-top: 125px; /* position: absolute; */ /* left: 336px; */ /* top: 215px; */ /* z-index: 60; */
+    margin-left: -100px;
+    margin-bottom: 30px;
+}
+
+section.dp-page-wrap.dp-page a {
+    color: #5BC500;
+    opacity: 1;
+}
+
+section.dp-page-wrap.dp-page a:hover {
+    opacity: .9;
+}
+
+.center {
+    text-align: center;
+}
+
+.landing-services-desc h3 {
+    color: #636669;
+    font-family: "Global-md", Arial, sans-serif !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.landing-services-desc p { /*margin-bottom: 50px;*/
+}
+
+.landing-services-header {
+    border-top: 5px solid #5FBB46;
+    padding: 10px 0px 0px 10px;
+    margin: 20px 0 20px 0; /*min-height: 65px;*/
+}
+
+.landing-pad {
+    padding: 0 5px;
+}
+
+.landing-services-header h3 {
+    text-transform: uppercase;
+    color: #636669;
+    font-family: "Global-md", Arial, sans-serif !Important;
+    font-size: 1.2em;
+}
+
+h2.landing-title mark {
+    background: transparent;
+    border-top: 5px solid #5BC500;
+    padding: 20px 15px 0 110px;
+    color: #636669;
+    text-transform: uppercase;
+    font-family: "Global-md", Arial, sans-serif;
+}
+
+.urgent-care h3 {
+    text-transform: uppercase;
+    color: #636669;
+    text-transform: uppercase;
+    font-family: "Global-md", Arial, sans-serif !Important;
+    margin-top: 30px;
+}
+
+p.book-an-appointment-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+#LiceGirls a {
+    text-transform: uppercase;
+    font-family: "Global-md", Arial, sans-serif !important;
+}
+
+p.address-yes.small {
+    font-family: "Global-md", Arial, sans-serif !important;
+}
+
+h3.darker {
+    font-family: "Global-md", Arial, sans-serif !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #636669;
+}
+
+.green {
+    color: #5BC500;
+}
+
+.left-image {
+    margin-right: 20px;
+}
+
+.space { /*margin-bottom: 50px;*/
+}
+
+h2.service-h2 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.feat {
+    width: 100%;
+}
+
+.landing-cta {
+    background: #2D75C1;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.landing-cta h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    border-left: none;
+}
+
+.inner h2 {
+    text-transform: uppercase;
+}
+
+.page-content main ul.nav-tabs {
+    border: none;
+}
+
+.page-content main ul.nav-tabs > li {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-top: 0;
+    border-bottom: 0;
+    padding: 0;
+    position: relative;
+    height: 124px;
+}
+
+.page-content main ul.nav-tabs > li:before {
+    display: none;
+}
+
+.page-content main ul.nav-tabs > li a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #83c523;
+    border: none;
+    border-radius: 0;
+}
+
+.page-content main ul.nav-tabs > li a:hover {
+    background-color: #bdec78;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.page-content main ul.nav-tabs > li.active a {
+    background-color: #bdec78;
+    border: none;
+}
+
+.page-content main ul.nav-tabs > li a h3 {
+    position: absolute;
+    color: #000000;
+    width: 100%;
+    padding: 0 5%;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.page-content main .tab-content .service-title {
+    color: #327bca;
+    text-align: center;
+    font-weight: bold;
+    margin: 60px 0 45px;
+}
+
+.page-content main .tab-content .service-images .service-image {
+    padding: 2px;
+}
+
+.page-content main .tab-content .service-description {
+    padding: 40px;
+}
+
+.page-content main .tab-content .service-description p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.page-content main .urgent-care .call-today,
+.page-content main .urgent-care .address-yes {
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+    font-family: Lato;
+}
+
+.page-content main .urgent-care .phone-home {
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.page-content main .urgent-care .book-an-appointment-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.page-content main .urgent-care .book-an-appointment-container .book-an-appointment-link {
+    background-color: #f8eb2d;
+    height: 70px;
+    border-radius: 35px;
+    position: relative;
+    max-width: 345px;
+    width: 100%;
+    display: block;
+    background-color: #f8eb2d;
+    margin: 0 auto;
+}
+
+.page-content main .urgent-care .book-an-appointment-container .book-an-appointment-link .book-an-appointment {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    left: 0;
+}
+
+.page-content main .urgent-care a:hover {
+    text-decoration: none;
+}
+
+.page-content main .dropdown {
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+}
+
+.page-content main .dropdown a.dropdown-selected {
+    width: 100%;
+    display: block;
+    height: 100%;
+    background-color: #bdec78;
+    padding: 0;
+}
+
+.page-content main .dropdown a.dropdown-selected h3 {
+    width: 100%;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.page-content main .dropdown-menu {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+}
+
+.page-content main ul.dropdown-menu > li {
+    padding: 0;
+    height: 60px;
+    width: 100%;
+    margin: 0;
+}
+
+.page-content main ul.dropdown-menu > li:before {
+    display: none;
+}
+
+.page-content main ul.dropdown-menu > li.active {
+    display: none;
+}
+
+.page-content main ul.dropdown-menu > li a.dropdown-choice {
+    background-color: #83c523;
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding: 0;
+}
+
+.page-content main ul.dropdown-menu > li a.dropdown-choice h3 {
+    width: 100%;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    margin: 0;
+    padding: 0 5px;
+}
+
+#dp-mainmenu-toggle {
+    margin-top: 0px !important;
+    width: 10% !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    float: right !important;
+    top: 98px;
+    background: #5BC500;
+    padding: 9px;
+}
+
+.dp-subheader-wraper {
+    display: none;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.connect #mcTooltip {
+    border-width: 3px;
+    color: #000;
+    border-color: #818286;
+    padding: 20px;
+    font-size: 12px;
+    font-family: Verdana, Arial;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.connect #mcTooltip h2 {
+    background: #818286;
+    color: #fff;
+}
+
+#mcTooltip h2 {
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 94%;
+    padding: 10px;
+}
+
+#mcTooltip .social-links i.fa {
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+#mcTooltip .social-links a {
+    width: 55px;
+    color: #46494E;
+    background: transparent;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 10px;
+    transition: all 2s ease;
+    padding: 0;
+}
+
+#mcTooltip h3, #mcTooltip .clearfix {
+    display: none !important;
+}
+
+#mcTooltip .main-copy {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.dp-copyrights .foot-logo {
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    margin-top: -10px; /* text-align: center; */
+}
+
+.dp-copyrights-text {
+    text-align: center;
+}
+
+.press-box:nth-child(3n+3):after {
+    content: ' ';
+    height: 60px;
+    display: block;
+    clear: both;
+}
+
+.interior-excerpt .show_more {
+    padding-top: 1px;
+    margin-top: -13px;
+}
+
+.contact-us div#wpcf7-f3283-p18-o1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.green-title {
+    color: #5BC500 !important;
+}
+
+.post-box h3.green-title {
+    min-height: 52px;
+}
+
+p.post-excerpt {
+    margin-bottom: 40px;
+}
+
+.contact-us .wpcf7 textarea {
+    height: 150px !important;
+}
+
+.contact-us .wpcf7 input[type="text"], .contact-us .wpcf7 input[type="email"], .contact-us .wpcf7 textarea, .contact-us input[type="text"], .contact-us input[type="password"], .contact-us input[type="email"], .contact-us input[type="www"], .contact-us input[type="tel"] {
+    background-color: #eee !important;
+    padding: 10px !important;
+    height: 45px;
+    margin-bottom: 10px !important;
+    border: none !important;
+    color: #636669 !important;
+    font-size: 15px;
+    width: 100%;
+    height: auto !important;
+    font-family: "Global-light", Arial, sans-serif;
+}
+
+.dark-grey .fa {
+    color: #5BC500;
+}
+
+.social-tablet {
+    display: none;
+}
+
+.services-box-animated .back h3 {
+    text-transform: none;
+    /*font-size: 24px;
+       float: left;*/
+}
+
+.page-id-16 .search_field.by_name {
+    width: 45% !important;
+    float: left;
+    margin-right: 45px;
+    margin-bottom: 20px; /* height: 51px; */
+}
+
+.page-id-16 input#addressSearch {
+    height: 45px;
+}
+
+/**** booking form ****/
+.title-block {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.book-right-block {
+    text-align: center;
+}
+
+.book-right-block .clinic-image-block {
+    width: 100%;
+    height: 646px;
+    background: url(/wp-content/uploads/2016/08/Image3.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.book-right-block .clinic-image-block .overlay {
+    width: 100%;
+    height: 646px;
+    padding-top: 240px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.book-right-block .clinic-image-block h4 {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 44px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.book-right-block .clinic-information-block {
+    width: 100%;
+    height: 440px;
+    padding: 80px 0 40px 0;
+}
+
+.book-right-block .clinic-information-block h4 {
+    color: #4f4f4f;
+    font-size: 17px;
+    line-height: 44px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.book-right-block .clinic-information-block .c-box {
+    width: 100%;
+    padding: 20px 20px 20px 38px;
+}
+
+.book-right-block .clinic-information-block h5 {
+    color: #4f4f4f;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+
+.book-right-block .clinic-information-block p {
+    color: #4f4f4f;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 0;
+    text-align: left;
+}
+
+.page-id-3295 .near-me {
+    width: 752px;
+}
+
+.book-right-block .clinic-image-block h3 {
+    color: #ffffff;
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.roll-over {
+    margin-top: 42px !important;
+}
+
+.lice-alerts .front img {
+    min-height: 290px !important;
+}
+
+.circle-grandparent {
+    display: inline-block;
+    float: left;
+    margin-right: 8px;
+}
+
+.circle-text {
+    display: inline-block;
+}
+
+.book-numbers {
+    width: 100%;
+    margin-left: 20%;
+}
+
+.small {
+    display: none;
+}
+
+.vc_col-sm-4 div.parents {
+    height: auto;
+}
+
+.parents .front .image-container {
+    height: 265px;
+}
+
+.care .front .image-container {
+    height: 265px;
+}
+
+.super .front .image-container {
+    height: 265px;
+}
+
+
+@media screen and (max-width: 1030px) {
+    .btn-group-vertical > .btn-group:after, .btn-toolbar:after, .container-fluid:after, .container:after, .dl-horizontal dd:after, .form-horizontal .form-group:after, .modal-footer:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after, .vc_clearfix:after, .vc_column-inner::after, .vc_el-clearfix, .vc_row:after {
+        clear: none !important;
+    }
+
+    .lice-alerts .front img {
+        min-height: 33vh !important;
+    }
+
+    .over-third {
+        width: 35% !important;
+    }
+
+    .services-box-animated .back {
+        padding: 15px 9px !important;
+    }
+
+    #dp-mainbody {
+        padding: 20px 65px;
+    }
+
+    .btn {
+        padding: 18px 32px;
+    }
+
+    .play-video-box {
+        width: 33%;
+    }
+
+    .pad-me {
+        margin-top: 15px !important;
+    }
+
+    .roll-over {
+        margin-top: 30px !important;
+    }
+
+    .tablet .block {
+        margin-top: -43px !important;
+    }
+
+    .front p {
+        margin-top: -255px;
+        margin-bottom: 39px;
+    }
+
+    .the-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    div#fws_5798e920c3f02, div#fws_5798e920c5b29, div#fws_5798e920c76f9, div#fws_5798e920c8bb7 {
+        width: 75% !important;
+        margin: 0 auto !important;
+    }
+
+    .sticky .locate-me {
+        position: absolute;
+    }
+
+    .social-tablet {
+        display: block;
+    }
+
+    .top-buttons, #mega-menu-wrap-mainmenu {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .mobile-no {
+        display: none !important;
+    }
+
+    .mobile-yes {
+        display: block !important;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .clinic-container {
+        position: static;
+    }
+
+    .clinic-locator-button a.odd-btn {
+        background: #5BC500;
+        width: 87%;
+        position: absolute;
+        top: 126px;
+        left: 10px;
+        z-index: 450;
+        height: 50px;
+        line-height: 50px;
+        text-align: left;
+        text-transform: uppercase;
+        font-family: "Global-bold", "Arial", sans-serif;
+        font-size: 1.3em;
+        float: none;
+    }
+
+    #dp-sticky-navigation-wrapper {
+        display: none !important;
+    }
+
+    .sticky .clinic-locator-button a.odd-btn {
+        top: 0px !important;
+        position: fixed !important;
+        width: 100%;
+        left: 0px !important;
+    }
+
+    .sticky .locate-me {
+        position: fixed !important;
+        width: 100%;
+        top: 147px !important;
+        left: -10px; /*min-height: 120px;*/
+    }
+
+    .sticky { /* position: absolute;*/
+    }
+
+    .odd-btn img {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .locate-me {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 250px;
+        z-index: 50;
+    }
+
+    .mobile .vc_col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .one-fourth, .over-third {
+        margin-top: 30px;
+    }
+
+    .one-fourth {
+        width: 23%;
+    }
+
+    h3.paddy {
+        padding: 25px;
+    }
+
+    .super h3.paddy {
+        padding: 15px 0px 0px 0px !important;
+    }
+
+    .vp-a {
+        margin-top: -45px;
+    }
+
+    .social-tablet {
+        display: block;
+        float: right;
+        margin-top: 30px;
+        width: 46%; /* text-align: right !Important; */
+    }
+
+    .social-tablet h3.box-title {
+        display: none;
+    }
+
+    .social-tablet .clearfix {
+        display: none;
+    }
+
+    .social-tablet .social-links i.fa {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    .social-tablet .social-links {
+        text-align: right;
+    }
+
+    .social-tablet .social-links a {
+        width: 36px;
+        margin-right: 2px;
+    }
+
+    .small {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .page404 h1 {
+        font-size: 140px;
+    }
+
+    .page404 h3 {
+        font-size: 28px;
+    }
+
+    .single-landing_page .clinic-container {
+        display: block !important;
+    }
+
+    .super .back {
+        background: url('/wp-content/uploads/2016/08/Super_Lice_FAQ-mobile-hover.jpg') !important;
+        background-size: cover !important;
+    }
+
+    .book-numbers {
+        width: 90%;
+    }
+
+    .page-id-7202 .the-container {
+        text-align: center !important;
+    }
+
+    #yui_3_13_0_3_1469559892132_35 p {
+        height: auto !important;
+    }
+
+    .parents .front img {
+        min-height: 300px;
+    }
+
+    .super .front h3 {
+        margin-top: -49px !important;
+    }
+
+    /*.super .front img {
+        min-height: 295px;
+    }*/
+    .mobile-pad {
+        padding-left: 45px !important;
+        padding-right: 45px !important;
+        padding-bottom: 45px !important;
+    }
+
+    .near-me.interior-search {
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+        margin-top: 35px;
+    }
+
+    .page-id-3295 .near-me {
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+        margin-top: 35px;
+    }
+
+    .store-locator .store-locator-map {
+        width: 100%;
+        height: 35vh;
+    }
+
+    .store-locator .store-locator-list {
+        width: 100%;
+        height: 55vh;
+    }
+
+    .the-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sticky .locate-me {
+        position: absolute;
+    }
+
+    .clinic-container.sticky {
+        top: 0 !important;
+    }
+
+    .sticky .clinic-locator a {
+        top: 0;
+        width: 100%;
+        position: fixed;
+    }
+
+    .social-tablet {
+        display: none;
+    }
+
+    #dp-sticky-navigation-wrapper {
+        display: none !important;
+    }
+
+    #footer-social-bar a {
+        width: 34px;
+    }
+
+    .dp-copyrights .foot-logo {
+        float: none !important;
+        margin: 0 auto !important;
+    }
+
+    #footer-social-bar a:before, #footer-social-bar a:after {
+        font-size: 20px !important;
+    }
+
+    #footer-social-bar {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        padding: 18px 32px;
+    }
+
+    h2 {
+        font-size: 22px !important;
+    }
+
+    .services-box-animated .front h3 {
+        text-align: center;
+        padding: 15px;
+        margin-top: -50px;
+    }
+
+    .vp-a {
+        float: right;
+        margin-top: 0px;
+    }
+
+    .over-third {
+        width: 59% !important;
+        margin-top: 30px;
+    }
+
+    .one-fourth {
+        width: 35% !important;
+    }
+
+    .lice-alerts {
+        margin-top: 30px;
+    }
+
+    .one-fourth {
+        margin-top: 0;
+    }
+
+    .services-box-animated .back h3 {
+        font-size: 18px;
+    }
+
+    .services-box-animated .front h3 {
+        font-size: 16px;
+    }
+
+    .mobile .vc_col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+    
+    .parents .front .image-container {
+        height: auto;
+    }
+
+    .care .front .image-container {
+        height: auto;
+    }
+
+    .super .front .image-container {
+        height: auto;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    #dp-mainmenu-toggle { 
+        margin-top: 0px !important;
+        width: 10% !important;
+        color: #fff !important;
+        border-radius: 0 !important;
+        float: right !important;
+        top: 102px!important;
+        background: #5BC500;
+        padding: 9px;
+    }
+
+    .clinic-locator-button a.odd-btn {
+        background: #5BC500;
+        width: 90%!important;
+        text-align: left;
+        text-transform: uppercase;
+        font-family: "Global-bold", "Arial", sans-serif;
+        height: 30px !important;
+        padding: 10px !important;
+        font-size: 1.3em;
+        position: absolute !important;
+        margin-top: -24px;
+        margin-left: 10px;
+        line-height: 30px !important;
+        z-index: 50 !important;
+        top: 126px;
+        left: 0px !important;
+    }
+
+    .sticky .clinic-locator-button a.odd-btn {
+        top: 26px !important;
+        position: fixed !important;
+        width: 100%;
+        left: -10px !important;
+    }
+
+    .sticky .locate-me {
+        position: fixed !important;
+        width: 100%;
+        top: 147px !important;
+        left: -10px;
+    }
+
+    .odd-btn img {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .treat .back {
+        background: url('/wp-content/uploads/2016/07/treat-lice-for-real-overlay.jpg') !important;
+        background-size: cover !important;
+    }
+
+    .faqs .back {
+        background: url('/wp-content/uploads/2016/07/FAQ_Mobile-overlay.jpg') !important;
+        background-size: cover !important;
+    }
+
+    #dp-head h1 {
+        float: none;
+    }
+
+    #dp-head.top-navigation a.imageLogo {
+        margin: 0 auto !important;
+    }
+
+    .locate-me {
+        margin-right: 10px;
+        position: absolute !important;
+        top: 255px;
+        z-index: 5;
+        left: 0;
+        width: 100%;
+        max-height: 90px !important;
+    }
+
+    .the-container .vc_col-sm-5 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .the-container .vc_col-sm-7 {
+        width: 100%;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .feat {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .page-content main ul.nav-tabs > li {
+        width: 100% !important;
+    }
+
+    .page-content main .tab-content .service-description {
+        padding: 20px 0;
+    }
+
+    .page-content main .urgent-care .phone-home {
+        font-size: 36px;
+    }
+
+    #dp-mainbody {
+        padding: 30px 30px;
+    }
+
+    h2.landing-title mark {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .landing-title {
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .small {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    .single-landing_page .clinic-container {
+        display: block !important;
+    }
+
+    .services-box-animated .back h3 {
+        font-size: 17px;
+    }
+
+    /*.super .front img {
+        min-height: 244px !important;
+    }*/
+    /*.super .front img {
+        min-height: 194px;
+    }*/
+    .vp-a {
+        margin-top: -50px;
+    }
+
+    #footer-social-bar {
+        height: auto;
+    }
+
+    .small {
+        display: none;
+    }
+
+    a.hotline-bling {
+        top: 140px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .single-landing_page .clinic-container {
+        display: block !important;
+    }
+
+    .small {
+        display: block;
+    }
+
+    .small-hide {
+        display: none;
+    }
+
+    .sticky .clinic-locator-button a.odd-btn {
+        top: 26px !important;
+        position: fixed !important;
+        width: 100%!important;
+        left: -10px !important;
+        text-align: center!important;
+    }
+
+    .sticky .locate-me {
+        position: fixed !important;
+        width: 100%;
+        top: 147px !important;
+        left: -10px;
+        min-height: 120px;
+    }
+
+    .locate-me {
+        min-height: 120px;
+    }
+
+    #footer-social-bar a {
+        width: 30px;
+    }
+
+    #footer-social-bar li {
+        margin-left: 2px;
+    }
+
+    #footer-social-bar {
+        height: auto;
+    }
+
+    .mobile .vc_col-sm-6 {
+        width: 100% !important;
+    }
+
+    .services-box-animated .front h3 {
+        text-align: center;
+        padding: 15px;
+        margin-top: -45px;
+        font-size: 14px;
+    }
+
+    .over-third, .one-fourth {
+        width: 100% !important;
+    }
+
+    .vp-a {
+        margin-top: -50px;
+    }
+
+    .super .front img {
+        min-height: 145px;
+    }
+
+    .super .front h3 {
+        margin-top: -10px !important;
+    }
+
+    .book-numbers {
+        width: 90%;
+    }
+
+    .circle-text {
+        width: 85%;
+    }
+
+    .page-id-3295 .near-me {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+        margin-top: 35px;
+    }
+
+    .near-me.interior-search {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+        margin-top: 35px;
+    }
+
+    h2.landing-title mark {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    h2.landing-title mark {
+        padding: 20px;
+    }
+
+    .landing-title {
+        margin-left: 0;
+    }
+
+    #dp-mainbody {
+        padding: 100px 10px;
+    }
+
+    .the-container .vc_col-sm-5 {
+        width: 100%;
+        float: left;
+    }
+
+    .the-container .vc_col-sm-7 {
+        width: 100%;
+        float: left;
+    }
+
+    .the-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .social-tablet {
+        display: none;
+    }
+
+    .clinic-locator-button a.odd-btn {
+        width: 79%!important;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Global-bold", "Arial", sans-serif;
+        height: 30px !important;
+        padding: 10px !important;
+        font-size: 1.3em;
+        position: absolute !important;
+        margin-top: -28px;
+        margin-left: 10px;
+        line-height: 30px !important;
+        z-index: 50 !important;
+        top: 126px;
+        left: 0px !important;
+    }
+
+    .sticky .locate-me {
+        position: fixed;
+    }
+
+    .treat .back {
+        background: url('/wp-content/uploads/2016/07/treat-lice-for-real-overlay.jpg') !important;
+        background-size: cover !important;
+    }
+
+    .faqs .back {
+        background: url('/wp-content/uploads/2016/07/FAQ_Mobile-overlay.jpg') !important;
+        background-size: cover !important;
+    }
+
+    a.hotline-bling {
+        top: 140px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #LiceGirls h4 {
+        font-size: 12px !important;
+    }
+}
+
+#main-menu li a:after {
+    display: none;
+    background: #2D0D03;
+}
+
+.news-img-container {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="www"], input[type="tel"] {
+    padding: 0;
+}
+
+.investors {
+     background:#d9dad7;
+}
+
+.investors .inner {
+    width: 100%;
+    padding-top: 104%;
+}
+.investors .inner .front {
+    position: absolute;
+    top: 0;
+    padding: 5% 5px !important;
+}
+
+.investors .inner .front p {
+    color: #636669;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.investors .inner .front p:nth-of-type(1) {
+    color: #5BC500;
+}
+
+.investors .inner .front p:nth-of-type(2) {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 6px 0 0;
+}
+
+.investors .inner .front p:nth-of-type(3) {
+    font-weight: bold;
+    font-size: 38px;
+}
+
+@media screen and (min-width:900px) and (max-width: 1163px) {
+    .investors .inner .front p {
+        line-height: 34px;
+    }
+    .investors .inner .front p:nth-of-type(1) {
+        font-size: 30px;
+    }
+
+    .investors .inner .front p:nth-of-type(2) {
+        font-size: 16px;
+        margin: 4px 0 0;
+    }
+
+    .investors .inner .front p:nth-of-type(3) {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .mobile .investors .inner .front p:nth-of-type(1) {
+        font-size: 54px;
+        line-height: 60px;
+        padding: 30px 5px 15px;
+    }
+
+    .mobile .investors .inner .front p:nth-of-type(2) {
+        font-size: 32px;
+    }
+
+    .mobile .investors .inner .front p:nth-of-type(3) {
+        font-size: 54px;
+        line-height: 60px;
+        padding-top: 15px;
+    }
+}
+
+.mobile .investors .inner {
+    width: 100%;
+    padding-top: 102%;
+}
+
+.mobile .investors .inner .front {
+    position: absolute;
+    top: 0;
+}
+
+@media screen and (min-width:400px) and (max-width:520px) {
+    .mobile .investors .inner .front p:nth-of-type(1) {
+        font-size: 54px;
+        line-height: 60px;
+        padding: 30px 20px 15px;
+    }
+
+    .mobile .investors .inner .front p:nth-of-type(2) {
+        font-size: 32px;
+    }
+
+    .mobile .investors .inner .front p:nth-of-type(3) {
+        font-size: 54px;
+        line-height: 60px;
+        padding-top: 15px;
+    }
+}
+
+.investors .inner .back {
+    background: #5BC500 !important;
+}
+
+.investors .inner .back h3 {
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+.investors .inner .back p:last-child {
+    text-align: center;
+    position: absolute;
+    bottom: 36px;
+    left: 0;
+    width: 100%;
+}
+
+/* WOOCOMMERCE COLORS */
+p.stock, span.price, p.price, table.group_table td.price span.amount, .woocommerce.box ins, .woocommerce.box span.amount, .woocommerce .star-rating span, .woocommerce-page .star-rating span {
+    color: #5BC500;  
+}
+
+.woocommerce .button, table.shop_table thead th {
+    background: #5BC500 !important;  color:#ffffff !important;
+}
+
+/* CART & CHECKOUT PAGES */
+.page-numbers li .current, .page-numbers a:hover, .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-main-image.zoom .dp-wc-zoom > span > span, .wc-product-overlay .dp-wc-view > span > span, .woocommerce-main-image.zoom .dp-wc-zoom > span > span, .woocommerce-message, .woocommerce-error, .woocommerce-info, #payment div.payment_box, ul.products li.product .onsale, span.onsale {
+    background-color: #5BC500;       color:#ffffff !important;
+}
+
+.woocommerce .button:hover, table.cart a.remove, #content table.cart a.remove {
+    background-color: #5BC500 !important;  
+    color:#ffffff !important;
+}
+
+.product-subtotal span.amount {
+    color: #5BC500;
+}
+
+table.shop_table th {
+    background: #fff;
+    color: #000;
+}
+
+.woocommerce-message {
+    display: none;
+}
+
+/*Hide product meta*/
+.product_meta {
+    display: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0.03em;
+}
+
+/*Woocommerce Slider Thumbnails*/
+.woocommerce-product-gallery__image {
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-right: 5px;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* Woocommerce Mobile Cart */
+@media screen and (max-width: 600px) {
+
+    /* Force table to not be like tables anymore */
+    .woocommerce-page table.shop_table,
+    .woocommerce-page table.shop_table thead,
+    .woocommerce-page table.shop_table tbody,
+    .woocommerce-page table.shop_table th,
+    .woocommerce-page table.shop_table td,
+    .woocommerce-page table.shop_table tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    .woocommerce-page table.shop_table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .woocommerce-page table.shop_table tr {
+        /*border: 1px solid #d2d3d3; */
+    }
+
+    .woocommerce-page table.shop_table td {
+        /* Behave like a "row" */
+        border: 1px solid #d2d3d3;
+        position: relative;
+        padding-left: 30% !important;
+    }
+
+    .woocommerce-page table.shop_table {
+        border: none;
+    }
+
+    .woocommerce-page table.shop_table td.product-spacer {
+        border-color: #FFF;
+        height: 10px;
+    }
+
+    .woocommerce-page table.shop_table td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 25%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    /*
+    Label the data
+    */
+    .woocommerce-page table.shop_table td.product-remove:before {
+        content: "DELETE";
+    }
+
+    .woocommerce-page table.shop_table td.product-thumbnail:before {
+        content: "IMAGE";
+    }
+
+    .woocommerce-page table.shop_table td.product-name:before {
+        content: "PRODUCT";
+    }
+
+    .woocommerce-page table.shop_table td.product-price:before {
+        content: "PRICE";
+    }
+
+    .woocommerce-page table.shop_table td.product-quantity:before {
+        content: "QUANTITY";
+    }
+
+    .woocommerce-page table.shop_table td.product-subtotal:before {
+        content: "SUBTOTAL";
+    }
+
+    .woocommerce-page table.shop_table td.product-total:before {
+        content: "TOTAL";
+    }
+
+    .woocommerce .quantity,
+    .woocommerce #content .quantity,
+    .woocommerce-page .quantity,
+    .woocommerce-page #content .quantity {
+        margin: 0;
+    }
+
+    .woocommerce-page table.cart td.actions,
+    .woocommerce-page #content table.cart td.actions {
+        text-align: left;
+        border: 0;
+        padding-left: 6px !important;
+    }
+
+    .woocommerce-page table.cart td.actions .button.alt,
+    .woocommerce-page #content table.cart td.actions .button.alt {
+        float: left;
+        margin-top: 10px;
+    }
+
+    .woocommerce-page table.cart td.actions div,
+    .woocommerce-page #content table.cart td.actions div,
+    .woocommerce-page table.cart td.actions input,
+    .woocommerce-page #content table.cart td.actions input {
+        margin-bottom: 10px;
+    }
+
+    .woocommerce-page .cart-collaterals .cart_totals {
+        float: left;
+        width: 100%;
+        text-align: left;
+    }
+
+    .woocommerce-page .cart-collaterals .cart_totals th,
+    .woocommerce-page .cart-collaterals .cart_totals td {
+        border: 0 !important;
+    }
+
+    .woocommerce-page .cart-collaterals .cart_totals table tr.cart-subtotal td,
+    .woocommerce-page .cart-collaterals .cart_totals table tr.shipping td,
+    .woocommerce-page .cart-collaterals .cart_totals table tr.total td {
+        padding-left: 6px !important;
+    }
+
+    .woocommerce-page table.shop_table tr.cart-subtotal td,
+    .woocommerce-page table.shop_table tr.shipping td,
+    .woocommerce-page table.shop_table tr.total td,
+    .woocommerce-page table.shop_table.order_details tfoot th,
+    .woocommerce-page table.shop_table.order_details tfoot td {
+        padding-left: 6px !important;
+        border: 0 !important;
+    }
+
+    .woocommerce-page table.shop_table tbody {
+        padding-top: 10px;
+    }
+
+    .woocommerce .col2-set .col-1,
+    .woocommerce-page .col2-set .col-1,
+    .woocommerce .col2-set .col-2,
+    .woocommerce-page .col2-set .col-2,
+    .woocommerce form .form-row-first,
+    .woocommerce form .form-row-last,
+    .woocommerce-page form .form-row-first,
+    .woocommerce-page form .form-row-last {
+        float: none;
+        width: 100%;
+    }
+
+    .woocommerce .order_details ul,
+    .woocommerce-page .order_details ul,
+    .woocommerce .order_details,
+    .woocommerce-page .order_details {
+        padding: 0;
+    }
+
+    .woocommerce .order_details li,
+    .woocommerce-page .order_details li {
+        clear: left;
+        margin-bottom: 10px;
+        border: 0;
+    }
+
+    /* make buttons full width, text wide anyway, improves effectiveness */
+    #content table.cart td.actions .button,
+    .woocommerce #content table.cart td.actions .input-text,
+    .woocommerce #content table.cart td.actions input,
+    .woocommerce table.cart td.actions .button,
+    .woocommerce table.cart td.actions .input-text,
+    .woocommerce table.cart td.actions input,
+    .woocommerce-page #content table.cart td.actions .button,
+    .woocommerce-page #content table.cart td.actions .input-text,
+    .woocommerce-page #content table.cart td.actions input,
+    .woocommerce-page table.cart td.actions .button,
+    .woocommerce-page table.cart td.actions .input-text,
+    .woocommerce-page table.cart td.actions input {
+        width: 100%;
+    }
+
+    /* keep coupon at 50% */
+    #content table.cart td.actions .coupon .button,
+    .woocommerce #content table.cart td.actions .coupon .input-text,
+    .woocommerce #content table.cart td.actions .coupon input,
+    .woocommerce table.cart td.actions .coupon .button,
+    .woocommerce table.cart td.actions .coupon .input-text,
+    .woocommerce table.cart td.actions .coupon input,
+    .woocommerce-page #content table.cart td.actions .coupon .button,
+    .woocommerce-page #content table.cart td.actions .coupon .input-text,
+    .woocommerce-page #content table.cart td.actions .coupon input,
+    .woocommerce-page table.cart td.actions .coupon .button,
+    .woocommerce-page table.cart td.actions .coupon .input-text,
+    .woocommerce-page table.cart td.actions .coupon input {
+        width: 48%;
+    }
+
+    /* clean up how coupon inputs display */
+    #content table.cart td.actions .coupon,
+    .woocommerce table.cart td.actions .coupon,
+    .woocommerce-page #content table.cart td.actions .coupon,
+    .woocommerce-page table.cart td.actions .coupon {
+        margin-top: 1.5em;
+    }
+
+    #content table.cart td.actions .coupon .input-text,
+    .woocommerce table.cart td.actions .coupon .input-text,
+    .woocommerce-page #content table.cart td.actions .coupon .input-text,
+    .woocommerce-page table.cart td.actions .coupon .input-text {
+        margin-bottom: 1em;
+    }
+
+    /* remove cross sells, they interfere with flow between cart and cart totals + shipping calculator */
+    .woocommerce .cart-collaterals .cross-sells,
+    .woocommerce-page .cart-collaterals .cross-sells {
+        display: none;
+    }
+}
+
+
+
+

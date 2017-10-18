@@ -1,0 +1,605 @@
+/**
+ *
+ * -------------------------------------------
+ * Template CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 5. Wordpress elements styling
+ *
+ *
+------------------------------------ */
+ 
+/* 5.1. Main menu
+==================================== */ 
+#dp-mainmenu-toggle {
+	display: none;
+} 
+ 
+#dp-mainmenu-collapse {
+	overflow: visible!important;
+} 
+ 
+ 
+
+/* 5.2. Comments
+==================================== */
+
+#comments {
+	margin: 20px 0 0 0;
+}
+
+#comments.nocomments {
+	border-top: none;
+}
+
+#comments > h2:first-child {
+	font-size: 20px;
+	margin: 0 0 42px 0;
+	padding: 24px 0 0 0;
+}
+
+#comments > nav {
+	margin: 12px 0;
+	overflow: hidden;
+}
+
+#comments > nav .nav-prev {
+	float: left;
+}
+
+#comments > nav .nav-next {
+	float: right;
+}
+
+#comments > ol {
+	list-style-type: none;
+	padding: 0;
+}
+
+#comments ol.children {
+	list-style-type: none;
+	margin-left: 5%;
+	padding: 0;
+}
+
+#comments li article {
+	clear: both;	
+	margin-top: 20px;
+	position: relative;
+}
+
+#comments li article > aside {
+	left: 0;
+	position: absolute;
+	top: 20px;
+}
+
+#comments li article > aside img {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+}
+
+#comments li article > .content {
+	margin-left:65px;
+	padding: 2px 0% 12px 3%;
+	
+}
+
+#comments .children article > .content {
+	margin-left: 55px;
+}
+
+#comments article time {
+	color: #b3b6b7;
+	font-size: 11px;
+}
+
+#comments article .author {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#comments article .content > * {
+	font-size: 12px;
+}
+
+#comments article footer .edit,
+#comments article footer .reply {
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#comments em.awaiting-moderation {
+	color: #a33;
+	display: block;
+	font-size: 14px;
+	margin: 0 0 12px 0;
+	text-align: center;
+}
+/* Special comments classes */
+#comments li.bypostauthor > article {
+}
+
+#comments li.bypostauthor article .content {
+	border: none!important;
+}
+
+#comments li.bypostauthor article aside {
+	left: 2%;
+}
+
+#comments li.byuser article {}
+#comments li.odd article {}
+#comments li.even article {}
+
+/* Comments typography */
+#comments li article abbr[title],
+#comments li article acronym[title] {
+	border-bottom: 1px dotted;
+}
+
+#comments li article code {
+	background: #fafafa;
+	border-left: 4px solid #eee;
+	display: block;
+	margin: 10px 0;
+	padding: 10px 20px; 
+	white-space: pre;
+}
+
+#comments li article blockquote {
+	background: #fafafa;
+	border: 2px solid #eee;
+	border-left: none;
+	border-right: none;
+	display: block;
+	margin: 10px 0;
+	padding: 10px; 
+	position: relative;
+}
+
+#comments li article blockquote p {
+	margin: 0;
+}
+
+#comments li article q {
+	color: #888;
+	font-weight: bold;
+}
+
+#comments li article strike {
+	text-decoration: line-through;
+}
+
+#comments li article del {
+	color: #aaa;
+	text-decoration: line-through;
+}
+.comments-amount {color: #a0a5aa; font-weight:300; letter-spacing:3px;}
+.avatar img {
+	max-width: 70px;
+	border-radius: 50%!important;
+	border:1px solid #eceef0;
+	padding:8px;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+.avatar:hover img {
+	background:#5F8CB4;
+}
+#comments article {border:none;}
+
+.comment-bouble {
+	position: relative;
+	background: #fff;
+	border: 1px solid #ECEEF0;
+	padding:15px;
+}
+.comment-bouble:after, .comment-bouble:before {
+	right: 100%;
+	top: 45px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.comment-bouble:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #fff;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.comment-bouble:before {
+	border-color: rgba(236, 238, 240, 0);
+	border-right-color: #ECEEF0;
+	border-width: 11px;
+	margin-top: -11px;
+}
+.comment-reply-link {color:#B5BABF!important;font-weight:400;}
+.comment-reply-link:before{ 
+	font-family:"fontello";
+	font-size:15px;
+	content:"\eaf2";
+	padding-right:3px;
+}
+.comment-reply-link:hover {color:#5F8CB4!important;}
+/* Comment form */
+#respond {
+	padding: 12px 0;
+}
+
+#respond > h3 {
+	padding: 24px 0 0 0;
+	margin: 0 0 20px;
+	font-size: 22px;
+	font-weight: normal!important;
+	line-height: 100%;
+	border-top: 1px solid #e5e5e5;
+}
+
+#respond p.comment-notes,
+#respond p.logged-in-as,
+#respond p.form-allowed-tags {
+	font-size: 11px;
+	color: #999
+}
+
+#respond input,
+#respond textarea {
+	display: block;
+	background-color:#F8FAFC;
+}
+#respond input:hover,
+#respond textarea:hover,
+#respond input:focus,
+#respond textarea:focus  {
+	display: block;
+	background-color:#fff;
+}
+
+#respond textarea {
+	width: 100%;
+}
+#respond input[type="text"],
+#respond input[type="password"] {
+	width: 40%;
+}
+
+#respond #reply-title small {
+	float: right;
+	font-size: 14px;
+	text-transform: none;
+}
+#respond input[type="submit"] {
+	background-color:#5F8CB4;
+	color:#fff;
+}
+#respond input[type="submit"]:hover {
+	background-color:#A0A5AA;
+	color:#fff;
+}
+/* 5.3. Post meta-data
+==================================== */
+
+.content > form input[type="submit"] {
+	display: inline-block;
+	float: none;
+}
+
+#dp-mainbody header h1 {
+}
+#dp-mainbody header h2{
+	font-size:24px;
+	font-weight:700;
+	margin-bottom:10px;
+	
+}
+
+#dp-mainbody header h2 a {color: #3C4E5E;
+	
+}
+
+article header {
+	
+}
+
+article.post {
+
+position: relative;
+}
+
+article.no-title,
+article.page-fullwidth {
+	padding-left: 0;
+}
+
+section #comments {
+	
+}
+
+article.no-title + section#comments,
+article.page-fullwidth + section#comments, .attachment section#comments {
+	margin-left: 0;
+}
+
+article > footer {
+	padding: 16px 0;
+}
+
+article > footer::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+article > .content,
+article > .summary {
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+aside.meta {
+	float: left;
+	left: 0px;
+	position: absolute;
+	width: 50px;
+	top:15%;
+}
+
+aside.meta dl {
+	position: relative;
+}
+
+aside.meta a {
+	color:#213344;
+	opacity:0.35;
+}
+
+aside.meta a:active,
+aside.meta a:focus,
+aside.meta a:hover {
+	color: #5F8CB4;
+	opacity:1;
+}
+
+aside.meta dt {
+	clear: both;
+	display: block;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: right;
+}
+
+aside.meta dd {
+	margin: 0 0 12px 0;
+}
+
+aside.meta .day {
+	color:#5F8CB4;
+	font-size:20px;
+	font-weight:700;
+}
+
+aside.meta .month {
+	color:#213344;
+	font-size:13px;
+	font-weight:700;
+	opacity:0.35;
+}
+aside.meta .year {
+	color:#213344;
+	font-size:13px;
+	font-weight:700;
+	margin-bottom:5px;
+	opacity:0.35;
+}
+div.meta {display:block; width:100%; margin-bottom:3px;}
+div.meta span {font-weight:200; line-height: 12px;font-size: 12px; font-style:italic;color:#A0B0BF}
+div.meta span a {color:#A0B0BF}
+
+div.meta a:hover {color:#5F8CB4!important;}
+.medium .date-container {background: #5f8cb4;width:45px; position:absolute;z-index:10; top:20px;padding: 5px 0; -webkit-border-top-right-radius: 2px;
+-webkit-border-bottom-right-radius: 2px;
+-moz-border-radius-topright: 2px;
+-moz-border-radius-bottomright: 2px;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;}
+.medium .date-container dt {text-align:center; color:#fff; font-weight:500; font-size:14px;}
+.large .date-container {border-right:1px solid #ECEEF0; position:absolute; display:table;width:70px;}
+.large .date-container .inner {padding: 5px 15px;}
+.large .date-container dt {text-align:center;}
+.large .date-container .day h2 {font-weight: 600;
+color: #b9bec3;
+text-align: center;
+border-bottom: 1px solid #eceef0;
+font-size: 36px;
+line-height: 20px;
+padding-bottom: 20px;
+margin-bottom: 10px;}
+.large .date-container .month h4{
+font-weight: 600;
+color: #e2e4e6;
+text-align: center;
+font-size: 14px;
+line-height: 20px;
+text-transform:uppercase;}
+.large .date-container .like a { color:#E2E4E6}
+.large .date-container .like a:hover { color:#5F8CB4}
+.large .meta .date {display:none;}
+.shifted-content {padding-left:90px;}
+#dp-social-api {
+	padding: 0 0 20px 0;
+}
+
+#dp-social-api > * {
+	display: block;
+	float: left!important;
+	min-height: 33px;
+	margin-right: 5px!important;
+}
+
+#dp-social-api > a {
+	min-height: inherit!important;
+}
+
+/* 5.4. Post additional features
+==================================== */
+
+article header h1 sup,
+article.sticky header h1 sup,
+article header h2 sup,
+article.sticky header h2 sup {
+	background: #f41;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 12px;
+	padding: 2px 5px;
+	position: relative;
+	text-transform: uppercase;
+	top: -12px;
+}
+
+article figure.featured-image img {
+	display: block;
+	clear:both;
+	height: auto;
+	margin: 0 auto 20px auto;
+	width:100%;
+	max-width: 100%;
+}
+article figure.featured-video {
+	display: block;
+	clear:both;
+	height: auto;
+	margin: 0 auto 20px auto;
+	width:100%;
+	max-width: 100%;
+}
+
+article figure.featured-image img + figcaption {
+	color: #bbb;
+	font-size: 12px;
+	margin: -30px 0 15px 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.alignnone {
+	float: none;
+}
+
+.alignleft {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+.aligncenter {
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+
+div.wp-caption {
+	max-width: 100%!important;
+}
+
+.wp-caption-text {
+	font-size: 11px;
+	font-style: italic;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.gallery {
+	clear: both;
+	padding: 16px 0;
+}
+
+.gallery-caption {
+	font-size: 10px;
+}
+
+/* 5.5. wp-activate.php and wp-signup.php pages
+==================================== */
+
+/* wp-activate.php */
+
+#activateform {
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+#activateform #key,
+#activateform #submit {
+	font-size: inherit!important;
+}
+
+/* wp-signup.php */
+.mu_register {
+	margin: 20px auto!important;
+	max-width: 500px;
+}
+
+.mu_register input[type="submit"], 
+.mu_register #blog_title, 
+.mu_register #user_email, 
+.mu_register #blogname, 
+.mu_register #user_name {
+	font-size: inherit!important;	
+}
+
+.mu_register label {
+	font-size: inherit!important;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}

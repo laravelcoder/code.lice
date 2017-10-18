@@ -1,0 +1,84 @@
+[
+	{
+		"name": "Dark",
+		"css_class": "dark",
+		"exclude": "widget_dp_comments,widget_dp_nsp,widget_dp_tabs"
+	},
+	{
+		"name": "Light",
+		"css_class": "light",
+		"exclude": "widget_dp_comments,widget_dp_nsp,widget_dp_tabs"
+	},
+	{
+		"name": "Accented",
+		"css_class": "accented-bg",
+		"exclude": "widget_dp_comments,widget_dp_nsp,widget_dp_tabs"
+	},
+	{
+		"name": "Accented title",
+		"css_class": "accented-title"
+	},
+
+	{
+		"name": "Advertisement",
+		"css_class": "advertisement"
+	},
+	{
+		"name": "Menu",
+		"css_class": "menu",
+		"exclude": "widget_dp_comments,widget_dp_nsp,widget_dp_tabs"
+	},	
+
+	{
+		"name": "Heading line",
+		"css_class": "heading-line"
+	},
+	{
+		"name": "Badge Video",
+		"css_class": "badge-video"
+	},
+	{
+		"name": "Badge Audio",
+		"css_class": "badge-audio"
+	},
+	{
+		"name": "Badge Gallery",
+		"css_class": "badge-gallery"
+	},
+	{
+		"name": "Badge Hot",
+		"css_class": "badge-hot"
+	},
+	{
+		"name": "Badge New",
+		"css_class": "badge-new"
+	},
+	{
+		"name": "Badge Popular",
+		"css_class": "badge-popular"
+	},
+	{
+		"name": "Badge Top",
+		"css_class": "badge-top"
+	},
+	{
+		"name": "Unified style",
+		"css_class": "tags",
+		"for_only": "tag_cloud"
+	},
+	{
+		"name": "Arrows",
+		"css_class": "arrows",
+		"for_only": "widget_dp_nsp"
+	},
+	{
+		"name": "Header",
+		"css_class": "header",
+		"for_only": "widget_dp_nsp"
+	},
+	{
+		"name": "Flush bottom",
+		"css_class": "flush-bottom"
+	}
+
+]

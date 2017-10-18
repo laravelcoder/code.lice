@@ -1,0 +1,37 @@
+[
+		{
+		"full_name": "Body",
+		"short_name": "body",
+		"description": "Main font used in theme",
+		"selectors": "body, html",
+		"selectors_visibility": "no"
+	},
+	{
+		"full_name": "Headers",
+		"short_name": "headers",
+		"description": "Font used for headers (<i>tags h1, h2, h3, h4, h5, h6, widget titles etc</i>)",
+		"selectors": "h1, h2, h3, h4, h5,h6",
+		"selectors_visibility": "no"
+	},
+	{
+		"full_name": "Others I",
+		"short_name": "others1",
+		"description": "Font used in the other theme elements",
+		"selectors_visibility": "yes",
+		"selectors" : ""
+	},
+	{
+		"full_name": "Others II",
+		"short_name": "others2",
+		"description": "Another font used in the other theme elements",
+		"selectors_visibility": "yes",
+		"selectors" : ""
+	},
+		{
+		"full_name": "Others III",
+		"short_name": "others3",
+		"description": "Another font used in the other theme elements",
+		"selectors_visibility": "yes",
+		"selectors" : ""
+	}
+]

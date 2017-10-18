@@ -1,0 +1,38 @@
+[
+	{
+		"groupname": "Woocommerce settings",
+		"groupdesc": "Settings for the Woocommerce pages.",
+		"fields": [
+			{
+				"name": "woocommerce_show_sidebar",
+				"type": "Switcher",
+				"label": "Display sidebar on woocommerce pages",
+				"tooltip": "You can enable/disable showing the sidebar on woocommerce pages",
+				"default": "Y"
+			},
+			{
+				"name": "woocommerce_show_cart_button",
+				"type": "Switcher",
+				"label": "Display add to cart button on catalog pages",
+				"tooltip": "Enable showing buttons (add to cart, select options) on woocommerce pages",
+				"default": "N"
+			},
+			{
+				"name": "woocommerce_short_description",
+				"type": "Switcher",
+				"label": "Display short description on catalog pages",
+				"tooltip": "You can enable showing short description on woocommerce pages (category, shop)",
+				"default": "N"
+			},
+			{
+				"name": "woocommerce_short_desc_count",
+				"type": "Text",
+				"label": "Count characters of short description:",
+				"tooltip": "Specifies count characters of short description",
+				"default": "",
+				"visibility": ""
+			}
+			
+		]
+	}
+]

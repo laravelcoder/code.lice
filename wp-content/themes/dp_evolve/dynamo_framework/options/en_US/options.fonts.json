@@ -1,0 +1,179 @@
+[
+	{
+		"groupname": "Font Family Settings",
+		"groupdesc": "Select fonts for theme elements.",
+		"fields": [
+			{
+				"name": "fonts",
+				"type": "Fonts"
+			}
+		]
+	},
+		{
+		"groupname": "Font Size Settings",
+		"groupdesc": "You can set here font size for body and headers.",
+		"fields": [
+			{
+				"name": "fontsize_body",
+				"type": "Slider",
+				"label": "Body Fontsize",
+				"tooltip": "Select a fontsize for body .",
+				"default": "13px",
+				"other": {
+					"options": {
+						"8px": "8px",
+						"9px": "9px",
+						"10px": "10px",
+						"11px": "11px",
+						"12px": "12px",
+						"13px": "13px",
+						"14px": "14px",
+						"15px": "15px",
+						"16px": "16px",
+						"17px": "17px",
+						"18px": "18px"
+					}
+				}
+
+			},
+			{
+				"name": "fontsize_h1",
+				"type": "Slider",
+				"label": "H1 Fontsize",
+				"tooltip": "Select a fontsize for H1 tag .",
+				"default": "32px",
+				"other": {
+					"options": {
+						"22px": "22px",
+						"24px": "24px",
+						"26px": "26px",
+						"28px": "28px",
+						"30px": "30px",
+						"32px": "32px",
+						"34px": "34px",
+						"36px": "36px",
+						"38px": "38px",
+						"40px": "40px",
+						"42px": "42px"
+					}
+				}
+
+			},
+			{
+				"name": "fontsize_h2",
+				"type": "Slider",
+				"label": "H2 Fontsize",
+				"tooltip": "Select a fontsize for H2 tag .",
+				"default": "24px",
+				"other": {
+					"options": {
+						"19px": "19px",
+						"20px": "20px",
+						"21px": "21px",
+						"22px": "22px",
+						"23px": "23px",
+						"24px": "24px",
+						"25px": "25px",
+						"26px": "26px",
+						"27px": "27px",
+						"28px": "28px",
+						"29px": "28px"
+					}
+				}
+
+			},			
+			{
+				"name": "fontsize_h3",
+				"type": "Slider",
+				"label": "H3 Fontsize",
+				"tooltip": "Select a fontsize for H3 tag .",
+				"default": "20px",
+				"other": {
+					"options": {
+						"15px": "15px",
+						"16px": "16px",
+						"17px": "17px",
+						"18px": "18px",
+						"19px": "19px",
+						"20px": "20px",
+						"21px": "21px",
+						"22px": "22px",
+						"23px": "23px",
+						"24px": "24px",
+						"25px": "25px"
+					}
+				}
+
+			},			
+			{
+				"name": "fontsize_h4",
+				"type": "Slider",
+				"label": "H4 Fontsize",
+				"tooltip": "Select a fontsize for H4 tag .",
+				"default": "18px",
+				"other": {
+					"options": {
+						"13px": "13px",
+						"14px": "14px",
+						"15px": "15px",
+						"16px": "16px",
+						"17px": "17px",
+						"18px": "18px",
+						"19px": "19px",
+						"20px": "20px",
+						"21px": "21px",
+						"22px": "22px",
+						"23px": "23px"
+					}
+				}
+
+			},			
+			{
+				"name": "fontsize_h5",
+				"type": "Slider",
+				"label": "H5 Fontsize",
+				"tooltip": "Select a fontsize for H5 tag .",
+				"default": "16px",
+				"other": {
+					"options": {
+						"11px": "11px",
+						"12px": "12px",
+						"13px": "13px",
+						"14px": "14px",
+						"15px": "15px",
+						"16px": "16px",
+						"17px": "17px",
+						"18px": "18px",
+						"19px": "19px",
+						"20px": "20px",
+						"21px": "21px"
+					}
+				}
+
+			},
+			{
+				"name": "fontsize_h6",
+				"type": "Slider",
+				"label": "H6 Fontsize",
+				"tooltip": "Select a fontsize for H6 tag .",
+				"default": "14px",
+				"other": {
+					"options": {
+						"9px": "9px",
+						"10px": "10px",
+						"11px": "11px",
+						"12px": "12px",
+						"13px": "13px",
+						"14px": "14px",
+						"15px": "15px",
+						"16px": "16px",
+						"17px": "17px",
+						"18px": "18px",
+						"19px": "19px"
+											}
+				}
+
+			}						
+					]
+	}
+]

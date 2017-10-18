@@ -1,0 +1,271 @@
+/**
+ *
+ * -------------------------------------------
+ * Tablet CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 10. Tablet code
+ *
+ *
+------------------------------------ */
+ 
+/* 10.1. Base elements
+==================================== */ 
+
+#dp-header {
+}
+
+/* sidebar */
+#dp-mainbody-columns {
+	display: block;
+}
+
+#dp-mainbody-columns > section,
+#dp-mainbody-columns > aside {
+	display: block;
+	overflow: hidden;
+	width: 100%!important;
+	padding: 0;
+}
+
+#dp-footer .box:nth-child(2n+1)
+ {
+	clear: both;
+}
+
+.boxed #dp-page-box {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/* Archive page */
+.archivepage .widget.first {
+	margin-right: 2%;
+	margin-left: 0!important;
+}
+
+.archivepage .widget.first,
+.archivepage .widget.first + .widget {
+	margin-right: 0;
+	margin-left: 2%;
+	width: 48%;
+}
+
+.archivepage .widget.last {
+	margin: 0;
+	width: 100%;
+}
+
+/* images fix */
+#dp-mainbody img {
+	height: auto!important;
+	max-width: 100%!important;
+}
+
+/* column rules */
+#dp-sidebar .box {
+	float: left!important;
+	width: 50%!important;
+}
+
+.widget-area .col1 { width: 100%; }
+.widget-area .col2 { width: 50%; }
+.widget-area .col3 { width: 33.3%; }
+.widget-area .col4 { width: 50%; }
+.widget-area .col5 { width: 33.3%; }
+.widget-area .col6 { width: 33.3%; }
+
+.widget-area .box.last1 { width: 100%; }
+.widget-area .box.last2 { width: 50%; }
+.widget-area .box.last3 { width: 33.3%; }
+.widget-area .box.last4 { width: 50%; }
+.widget-area .box.last5 { width: 33.3%; }
+
+.widget-area .nth1 {
+	clear: both;
+}
+
+.widget-area .col6.last5.nth4,
+.widget-area .col6.last5.nth5 {
+	width: 50%;
+}
+
+/* 10.2. Header elements
+==================================== */
+
+/* 10.3. Other elements
+==================================== */
+.dp-columns > div {  
+    padding: 0 6px;  
+    }  
+
+/* 10.4. Main menu elements
+==================================== */ 
+#dp-button-area {position:absolute; right:0;top:0;}
+#dp-mainmenu-toggle {
+	display: inline-block!important;
+	height: 32px;
+	margin-top: 26px;
+	width:32px;
+	color:#666666;
+	line-height:32px;
+	border-radius:5px;
+	float:right;
+	position:absolute;
+	right:10px;
+	font-size:24px;
+	text-align:center;
+}
+
+#dp-mainmenu-toggle:hover {color:}
+
+#dp-head #main-menu {display:none;}
+
+#dp-header-search {display:none!important;}
+
+/* 10.6. Device classes
+==================================== */
+
+.onlyDesktop {
+	display: none!important;
+}
+
+.onlyTablets {
+	display: block!important;
+}
+
+.onlySmartphones {
+	display: none!important;
+}
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;
+}
+
+/* 10.7. Responsive tables
+==================================== */
+
+
+@media (max-width: 600px) {
+	article section table {
+		border: 1px solid #eee;
+		border-bottom: none;
+		max-width: 100%!important;
+		width: 100%!important;
+	}
+
+
+	article section table thead {
+		display: none;
+	}
+
+
+	article section table td {
+		border-top: 1px solid #eee;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		clear: both;
+		display: block;
+		float: right;
+		padding: 5px 0 5px 50%;
+		position: relative;
+		width: 100%;
+	}
+
+
+	article section table td:first-child {
+		border-top: none;
+	}
+
+
+	article section table tbody tr {
+		border-bottom: 2px solid #eee;
+	}
+
+
+	article section table td span.dp-table-label {
+		display: block;
+		font-size: 95%;
+		font-weight: bold;
+		left: 5px;
+		position: absolute;
+	}
+}
+/* 10.7. RTL Support
+==================================== */
+
+
+html[dir="rtl"] .archivepage .widget.first {
+	margin-right: 0;
+	margin-left: 2%!important;
+}
+
+
+html[dir="rtl"] .archivepage .widget.first,
+html[dir="rtl"] .archivepage .widget.first + .widget {
+	margin-right: 2%;
+	margin-left: 0;
+}
+
+
+html[dir="rtl"] #dp-sidebar .box {
+	float: right!important;
+}
+
+
+html[dir="rtl"] #dp-mainmenu-toggle {
+	float: left;
+}
+
+
+.portfolio-six .portfolio-item {
+	width:33.2%;
+	margin:0;
+	float:left;
+}
+.item-info-overlay a.preview {bottom:10px;}
+#dp-head a.cssLogo, #dp-head a.imageLogo {margin-top:20px;}
+#dp-button-area a { margin-top:30px;}
+/* Responsive Tables RTL Support */
+@media (max-width: 600px) {
+	html[dir="rtl"] article section table td {
+		float: left;
+		padding: 5px 50% 5px 0;
+	}
+
+
+	html[dir="rtl"] article section table td span.dp-table-label {
+		left: 0;
+		right: 5px;
+	}
+}
+ul.products li.product {
+	width: 50%!important;
+}
+ul.products.product-columns-2 li.product, .columns-2 ul.products li.product  {
+	width: 50%!important;
+}
+ul.products.product-columns-3 li.product, .columns-3 ul.products li.product {
+	width: 50%!important;
+}
+ul.products.product-columns-4 li.product, .columns-4 ul.products li.product {
+	width: 50%!important;
+}
+ul.products.product-columns-5 li.product, .columns-5 ul.products li.product {
+	width: 50%!important;
+}
+ul.products.product-columns-6 li.product, .columns-6 ul.products li.product {
+	width: 50%!important;
+}
+ul.products.product-columns-8 li.product, .columns-8 ul.products li.product {
+	width: 50%!important;
+}
+ul.products li.first {
+	clear: none;
+}

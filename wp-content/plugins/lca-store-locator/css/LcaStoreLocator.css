@@ -1,0 +1,76 @@
+.store-locator {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%; }
+  .store-locator .store-locator-map {
+    float: left;
+    width: 50%;
+    height: 585px;
+    -moz-transition: all linear 1s;
+    -o-transition: all linear 1s;
+    -webkit-transition: all linear 1s;
+    transition: all linear 1s; }
+    .store-locator .store-locator-map .location-info-window .store-image {
+      max-width: 100%;
+      float: left;
+      clear: both; }
+  .store-locator .store-locator-list {
+    float: left;
+    width: 50%;
+    height: 585px;
+    overflow-y: auto;
+    -moz-transition: all linear 1s;
+    -o-transition: all linear 1s;
+    -webkit-transition: all linear 1s;
+    transition: all linear 1s; }
+    .store-locator .store-locator-list .list {
+      margin: 0;
+      padding-left: 30px;
+      list-style: none; }
+      .store-locator .store-locator-list .list .location {
+        padding-left: 0 !important;
+        margin: 15px 0 0 0;
+        min-height: 0; }
+        .store-locator .store-locator-list .list .location.active {
+          background-color: #006505; }
+        .store-locator .store-locator-list .list .location .name {
+          color: #5BC500;
+          font-size: 1.5em;
+          font-weight: bold;
+          text-transform: uppercase; }
+        .store-locator .store-locator-list .list .location .location-info .phone {
+          margin-bottom: 0; }
+        .store-locator .store-locator-list .list .location .location-buttons a {
+          margin: 15px 15px 0 0;
+          display: inline-block;
+          width: 85px;
+          text-align: center; }
+  .store-locator .store-locator-clearfix {
+    width: 100%;
+    clear: both; }
+  .store-locator .loading-image-wrapper {
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .store-locator .loading-image-wrapper .loading-image {
+      display: inline-block; }
+  .store-locator.not-loaded .store-locator-map {
+    opacity: 0; }
+  .store-locator.not-loaded .store-locator-list {
+    opacity: 0; }
+  .store-locator.not-loaded .loading-image-wrapper {
+    display: block; }
+  .store-locator:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+/*# sourceMappingURL=LcaStoreLocator.css.map */

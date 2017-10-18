@@ -1,0 +1,143 @@
+[	
+	{
+		"name": "Sidebar",
+		"id": "sidebar",
+		"description": "Sidebar column",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>"
+	},
+	{
+		"name": "Woocommerce Sidebar",
+		"id": "woosidebar",
+		"description": "Sidebar column only for Woocmmerce pages",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>"
+	},
+			{
+		"name": "Secondary menu",
+		"id": "secondary_menu",
+		"description": "Widgets area for secondary menu",
+		"before_widget": "<div id=\"%1$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "",
+		"after_title": ""
+	},
+		{
+		"name": "Slideshow",
+		"id": "slideshow",
+		"description": "Widgets area for full width slideshow",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "",
+		"after_title": ""
+	},
+		{
+		"name": "Header",
+		"id": "header",
+		"description": "Widgets area on the header of website under slideshow",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>",
+		"amount": "6"
+	},
+	{
+		"name": "Mainbody",
+		"id": "mainbody",
+		"description": "Widgets area used only if is enabled in the theme options instead of showing posts",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>"
+	},
+	{
+		"name": "Footer",
+		"id": "footer",
+		"description": "Footer widget area",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>",
+		"amount": "6"
+	},
+	{
+		"name": "Footer 1 left",
+		"id": "footer1",
+		"description": "Alternative footer widget area in splited footer",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>",
+		"amount": "1"
+	},
+	{
+		"name": "Footer 1 middle",
+		"id": "footer2",
+		"description": "Alternative footer widget area in splited footer",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>",
+		"amount": "2"
+	},
+	{
+		"name": "Footer 1 rigt",
+		"id": "footer3",
+		"description": "Alternative footer widget area in splited footer",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>",
+		"amount": "1"
+	},
+	{
+		"name": "Tab I",
+		"id": "tab1",
+		"description": "Widgets area for use in the DP Tabs widget",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Tab II",
+		"id": "tab2",
+		"description": "Widgets area for use in the DP Tabs widget",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Tab III",
+		"id": "tab3",
+		"description": "Widgets area for use in the DP Tabs widget",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+		{
+		"name": "Megamenu Widget I",
+		"id": "megamenu1",
+		"description": "Widgets area for use in megamenu",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Megamenu Widget II",
+		"id": "megamenu2",
+		"description": "Widgets area for use in megamenu",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	}
+
+]

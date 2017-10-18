@@ -1,0 +1,121 @@
+/**
+ *
+ * -------------------------------------------
+ * IE code fixes
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 12. IE
+ *
+ *
+------------------------------------ */
+
+/* 12.1. IE8
+==================================== */
+
+.author-avatar img {
+	max-width: none!important;
+	width: auto!important;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="www"],
+input[type="tel"] {
+	line-height: 1.2!important;
+	padding-top: 8px!important;
+	padding-bottom: 8px!important;
+}
+#dp-head a.imageLogo, #dp-head a.imageLogo img {
+	max-width: none!important;
+	width: auto!important;
+}
+a.cssLogo, #dp-head a.cssLogo {
+	background: transparent url('../images/logo-ie8.png') no-repeat 0 0;
+}
+/* image logo fix */
+.imageLogo img {
+	max-width: auto!important;
+	width: auto!important;
+}
+
+#dp-head-wrap {}
+#dp-social-icons, 
+.alert, 
+.approved, 
+.attention, 
+.info, 
+.doc, 
+.idea, 
+.download, 
+.media, 
+.note, 
+.help, 
+.time, 
+.bubble.rounded .bubblecontent,
+.badge-big .dp_icon, 
+.badge-small .dp_icon, 
+.badge-big .icon_box .dp_icon, 
+.badge-small .icon_box .dp_icon,
+.button_sc, 
+.button_sc span, 
+.button.orange,
+.button.white, 
+.price-table, 
+.column-title, 
+.toggle_title, 
+.code .toggle_content, 
+.acc_title, 
+.social a, 
+.socialteam a , 
+.jp-interface, 
+.jp-progress, 
+.jp-play-bar, 
+.jp-volume-bar,
+.jp-volume-bar-value, 
+.flex-control-paging li a, 
+.author-info img, 
+#dp-popup-login input[type="submit"], 
+.dp-accented-button, 
+#dp-style-area a, 
+#dp-popup-cookie-law .close, 
+#dp-mainmenu-toggle, 
+.btn,
+button,
+a.dp-button,
+input[type="button"],
+input[type="submit"],
+.btn-large,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="www"],
+input[type="tel"],
+.readon,
+textarea,
+#dp-button-area a,
+#comments li article > aside,
+#comments li article > aside img,
+#comments li.bypostauthor > article,
+article header h1 sup,
+article.sticky header h1 sup,
+article header h2 sup,
+article.sticky header h2 sup,
+.tagcloud a,
+.wp-admin select,
+.dpWrap,
+.dpMedia,
+.selectBox-dropdown,
+.selectBox-dropdown.selectBox-menuShowing,
+.selectBox-inline,
+.dp_widget_rules_pages div span,
+#dp-head-wrap 
+{
+	behavior: url(wp-content/themes/evolve/js/css3pie.htc);
+}

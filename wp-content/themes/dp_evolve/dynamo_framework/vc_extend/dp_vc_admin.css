@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.vc_element-icon {width:32px!important;}
+.icon_selector_field {font-family: Open-Sans, Arial, Helvetica, sans-serif!important; width:300px!important; margin-right:5px!important; float:left}
+.icon-wpb-dp-button {background-image: url(images/dp_button.png) !important;}
+.icon-wpb-progress_bar {background-image: url(images/progress_bar.png) !important;}
+.wpb_progress_bar.wpb_content_element > .wpb_element_wrapper {background-image: url(images/progress_bar.png) !important;}
+.icon-wpb-pie-chart {background-image: url(images/chart_pie.png) !important;}
+.icon-wpb-counter {background-image: url(images/progres_counter.png) !important;}
+.icon-wpb-heading {background-image: url(images/headline.png) !important;}
+.icon-wpb-faq {background-image: url(images/faq.png) !important;}
+.icon-wpb-teambox {background-image: url(images/team_box.png) !important;}
+.icon-wpb-testimonial {background-image: url(images/testimonials.png) !important;}
+.icon-wpb-servicebox {background-image: url(images/servicebox.png) !important;}
+.icon-wpb-alertbox {background-image: url(images/alertbox.png) !important;}
+.icon-wpb-dp-gallery {background-image: url(images/dp_gallery.png) !important;}
+.wpb_photo_gallery > .wpb_element_wrapper {background-image: url(images/dp_gallery.png) !important; background-repeat:no-repeat; background-position:10px center}
+.icon-wpb-image {background-image: url(images/image.png) !important;}
+.icon-wpb-social-icons {background-image: url(images/social-icons.png) !important;}
+.icon-wpb-showbiz {background-image: url(images/showbiz.png) !important;}
+.wpb_social_links > .wpb_element_wrapper {background-image: url(images/social-icons.png) !important; background-repeat:no-repeat; background-position:10px center}
+.icon-wpb-icon {background-image: url(images/icon.png) !important;}
+.icon-wpb-portfolio-grid {background-image: url(images/grid.png) !important;}
+.icon-wpb-blog-grid {background-image: url(images/grid1.png) !important;}
+.icon-wpb-spacer {background-image: url(images/spacer.png) !important;}
+.icon-wpb-owl {background-image: url(images/owl.png) !important;}
+.icon-wpb-price-table {background-image: url(images/price_table.png) !important;}
+.icon-wpb-timeline {background-image: url(images/timeline.png) !important;}
+.icon-wpb-portfolio-carousel {background-image: url(images/carousel.png) !important;}
+.icon-wpb-blog-carousel {background-image: url(images/carousel1.png) !important;}
+.icon-wpb-teaser2 {background-image: url(images/teaser1.png) !important;}
+.icon-wpb-anchor {background-image: url(images/anchor.png) !important;}
+
+.icon-wpb-woocommerce_order_tracking,
+.icon-wpb-add_to_cart,
+.icon-wpb-product,
+.icon-wpb-products,
+.icon-wpb-product_categories,
+.icon-wpb-product_category,
+.icon-wpb-recent_products,
+.icon-wpb-featured_products,
+.icon-wpb-woocommerce_messages,
+.icon-wpb-woocommerce_cart,
+.icon-wpb-woocommerce_checkout,
+.icon-wpb-woocommerce_my_account,
+.icon-wpb-woocommerce_edit_address,
+.icon-wpb-woocommerce_change_password,
+.icon-wpb-woocommerce_view_order,
+.icon-wpb-woocommerce_pay,
+.icon-wpb-woocommerce_thankyou{ 
+	background-image: url(images/woo_icon.png) !important;
+}
+.vc_shortcodes_container {}
+
+
+
+
+.wpb_button.wpb_content_element > .wpb_element_wrapper .wpb_vc_param_value {}
+.wpb-elements-list-modal .modal-body { max-height: 600px;}
+
+#TB_overlay {
+  z-index: 100550!important;
+}
+#TB_window {
+  z-index: 100600!important;
+}

@@ -1,0 +1,490 @@
+[
+	{
+		"groupname": "Social links and contact info",
+		"groupdesc": "You can set here social links (will be displayed in top bar and eventually in footer).",
+		"fields": [
+			{
+				"name": "top_contact_phone",
+				"type": "Text",
+				"label": "Phone number",
+				"tooltip": "Here you can set phone number displayed in top bar.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "top_contact_email",
+				"type": "Text",
+				"label": "Email address",
+				"tooltip": "Here you can set email address displayed in top bar.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "top_contact_email_link",
+				"type": "Switcher",
+				"label": "Email as link",
+				"tooltip": "Display email as mailto link",
+				"default": "N",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "top_contact_email_hide",
+				"type": "Switcher",
+				"label": "Hide email address",
+				"tooltip": "If you select this option email address in ikink will be replaced with text bellow",
+				"default": "N",
+				"class": "",
+				"visibility": "top_contact_email_link=Y"
+			},
+			{
+				"name": "top_contact_email_text",
+				"type": "Text",
+				"label": "Email address text replacement",
+				"tooltip": "Here you can text which will be displayed instead email address in mailto link.",
+				"default": "Email Us",
+				"class": "",
+				"visibility": "top_contact_email_link=Y,top_contact_email_hide=Y"
+			},
+			{
+				"name": "social_facebook",
+				"type": "Text",
+				"label": "Facebook link",
+				"tooltip": "Here you can set facebook link. If you leave this field blank facebook icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_twitter",
+				"type": "Text",
+				"label": "Twitter link",
+				"tooltip": "Here you can set twitter link. If you leave this field blank twitter icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_linkedin",
+				"type": "Text",
+				"label": "Linkedin link",
+				"tooltip": "Here you can set linkedin link. If you leave this field blank linked icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_pinterest",
+				"type": "Text",
+				"label": "Pinterest link",
+				"tooltip": "Here you can set Pinterest link. If you leave this field blank pinterest icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_dribbble",
+				"type": "Text",
+				"label": "Dribbble link",
+				"tooltip": "Here you can set dribbble link. If you leave this field blank dribbble icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_flickr",
+				"type": "Text",
+				"label": "Flickr link",
+				"tooltip": "Here you can set flickr link. If you leave this field blank flickr icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_youtube",
+				"type": "Text",
+				"label": "Youtube link",
+				"tooltip": "Here you can set youtube link. If you leave this field blank youtube icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_vimeo",
+				"type": "Text",
+				"label": "Vimeo link",
+				"tooltip": "Here you can set vimeo link. If you leave this field blank vimeo icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_rss",
+				"type": "Text",
+				"label": "RSS link",
+				"tooltip": "Here you can set RSS link. If you leave this field blank RSS icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_steam",
+				"type": "Text",
+				"label": "Steam link",
+				"tooltip": "Here you can set steam link. If you leave this field blank steam icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_tumblr",
+				"type": "Text",
+				"label": "Tumblr link",
+				"tooltip": "Here you can set tumblr link. If you leave this field blank tumblr icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_github",
+				"type": "Text",
+				"label": "Github link",
+				"tooltip": "Here you can set github link. If you leave this field blank github icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_delicious",
+				"type": "Text",
+				"label": "Delicious link",
+				"tooltip": "Here you can set delicious link. If you leave this field blank delicious icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_reddit",
+				"type": "Text",
+				"label": "Reddit link",
+				"tooltip": "Here you can set reddit link. If you leave this field blank reddit icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_lastfm",
+				"type": "Text",
+				"label": "Lastfm link",
+				"tooltip": "Here you can set lastfm link. If you leave this field blank lastfm icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_digg",
+				"type": "Text",
+				"label": "Digg link",
+				"tooltip": "Here you can set digg link. If you leave this field blank digg icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_forrst",
+				"type": "Text",
+				"label": "Forrst link",
+				"tooltip": "Here you can set forrst link. If you leave this field blank forrst icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_stumbleupon",
+				"type": "Text",
+				"label": "Stumbleupon link",
+				"tooltip": "Here you can set stumbleupon link. If you leave this field blank stumbleupon icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_instagram",
+				"type": "Text",
+				"label": "Instagram link",
+				"tooltip": "Here you can set instagram link. If you leave this field blank instagram icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_viadeo",
+				"type": "Text",
+				"label": "Viadeo link",
+				"tooltip": "Here you can set viadeo link. If you leave this field blank viadeo icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_xing",
+				"type": "Text",
+				"label": "Xing link",
+				"tooltip": "Here you can set xing link. If you leave this field blank xing icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_googleplus",
+				"type": "Text",
+				"label": "Google+ link",
+				"tooltip": "Here you can set google+ link. If you leave this field blank google+ icon will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "social_icons_top_state",
+				"type": "Switcher",
+				"label": "Display social icons in top bar",
+				"tooltip": "Enable the display of the social icons in top bar",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "social_icons_bottom_state",
+				"type": "Switcher",
+				"label": "Display social icons in footer",
+				"tooltip": "Enable the display of the social icons in footer",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			}
+					]
+	},
+		{
+		"groupname": "Content Style",
+		"groupdesc": "You can set here style for blog pages and pages.",
+		"fields": [
+			{
+				"name": "template_homepage_mainbody",
+				"type": "Switcher",
+				"label": "Widgets Display on Homepage",
+				"tooltip": "Enable the display of widgets in mainbody widget positions instead of standard blog posts on the homepage.",
+				"default": "N",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "post_like_state",
+				"type": "Switcher",
+				"label": "Display like it counter for posts",
+				"tooltip": "Enable the display of like it counter for each post.",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "portfolio_like_state",
+				"type": "Switcher",
+				"label": "Display like it counter for portfolio",
+				"tooltip": "Enable the display of like it counter for each portfolio content item.",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "pages_show_comments_on_pages",
+				"type": "Switcher",
+				"label": "Display comments on pages",
+				"tooltip": "Enable the display of the comments block for each page content item.",
+				"default": "N",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "post_nav_state",
+				"type": "Switcher",
+				"label": "Display Prev/Next links in single post view",
+				"tooltip": "Enable the display of Prev/Next links in single post view.",
+				"default": "N",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "portfolio_show_comments_on_portfolio",
+				"type": "Switcher",
+				"label": "Display comments on portfolio items",
+				"tooltip": "Enable the display of the comments block for each portfolio item.",
+				"default": "N",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "details_on_attachment_page",
+				"type": "Switcher",
+				"label": "Display sidebar information on the attachment page",
+				"tooltip": "You can disable showing the sidebar with additional information on the attachment page.",
+				"default": "N",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "template_show_author_info",
+				"type": "Switcher",
+				"label": "Display Author Info",
+				"tooltip": "Enable the display of the author information block for each content item.",
+				"default": "N",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "template_show_author_info_on_pages",
+				"type": "Switcher",
+				"label": "Display Author Info on pages",
+				"tooltip": "Enable the display of the author information block on pages.",
+				"default": "N",
+				"class": "",
+				"visibility": "template_show_author_info=Y"
+			},
+			{
+				"name": "authorinfo_exclude_include",
+				"type": "Select",
+				"label": "Include/Exclude mode",
+				"tooltip": "Specify if the specified articles will be included or excluded.",
+				"default": "exclude",
+				"visibility": "template_show_author_info=Y",
+				"other": {
+					"options": {
+						"all": "Display on all pages or posts",
+						"include": "Include only specified articles/categories",
+						"exclude": "Exclude specified articles/categories"
+					}
+				}
+			},
+			{
+				"name": "authorinfo_articles",
+				"type": "Text",
+				"label": "Included/Excluded articles",
+				"tooltip": "Specify the list of comma-separated article IDs/titles/slugs (i.e. 2,5,34,200 or post-title1,post-title2)",
+				"default": "",
+				"visibility": "template_show_author_info=Y"
+			},
+			{
+				"name": "authorinfo_pages",
+				"type": "Text",
+				"label": "Included/Excluded pages",
+				"tooltip": "Specify the list of comma-separated page IDs/titles/slugs (i.e. 2,5,34,200 or page-title1,page-title2)",
+				"default": "",
+				"visibility": "template_show_author_info=Y"
+			},
+			{
+				"name": "authorinfo_categories",
+				"type": "Text",
+				"label": "Included/Excluded categories",
+				"tooltip": "Specify the list of comma-separated category IDs/titles/slugs (i.e. 2,5,34,200 or category-title1,category-title2)",
+				"default": "",
+				"visibility": "template_show_author_info=Y"
+			}
+					]
+	},
+	{
+		"groupname": "Post Meta Data Settings",
+		"groupdesc": "You can set here style for meta data of posts.",
+		"fields": [
+		{
+				"name": "postmeta_date_state",
+				"type": "Switcher",
+				"label": "Date in post meta data",
+				"tooltip": "If you would like to display the Date along with your post meta data, enable this setting",
+				"default": "Y"
+			},
+		{
+				"name": "postmeta_tags_state",
+				"type": "Switcher",
+				"label": "Tags in post meta data",
+				"tooltip": "If you would like to display the Tags along with your post meta data, enable this setting",
+				"default": "Y"
+			},
+		{
+				"name": "postmeta_author_state",
+				"type": "Switcher",
+				"label": "Author in post meta data",
+				"tooltip": "If you would like to display the Author along with your post meta data, enable this setting",
+				"default": "Y"
+			},
+		{
+				"name": "postmeta_coments_state",
+				"type": "Switcher",
+				"label": "Comments link in post meta data",
+				"tooltip": "If you would like to display the Number of Comments along with your post meta data, enable this setting",
+				"default": "Y"
+			}
+			
+					]
+	},
+	{
+		"groupname": "Category Layout Setting",
+		"groupdesc": "You can set here category layout.",
+		"fields": [
+		{
+				"name": "archive_slideshow",
+				"type": "Switcher",
+				"label": "Display slidesow of posts in category view",
+				"tooltip": "If you would like to display slideshow of posts in category head, enable this setting",
+				"default": "N"
+			},
+			{
+				"name": "archive_slideshow_item_count",
+				"type": "Text",
+				"label": "Max item count in slideshow",
+				"tooltip": "Specify the max count of posts to display category posts slideshow.",
+				"default": "7",
+				"visibility": "archive_slideshow=Y"
+
+			},
+			{
+				"name": "archive_slideshow_excerpt_len",
+				"type": "Text",
+				"label": "Excerpt in slideshow length (in words)",
+				"tooltip": "Specify the value of the excerpt length used in the catepory post slideshow (the length is specified in words).",
+				"default": "20",
+				"visibility": "archive_slideshow=Y"
+			},
+		{
+				"name": "archive_style",
+				"type": "Select",
+				"label": "Blog and category thumbs size",
+				"tooltip": "Specify the style for blog feed and category layout",
+				"default": "big",
+				"visibility": "",
+				"other": {
+					"options": {
+						"big": "Full width feetured images",
+						"small": "Small featured images"
+					}
+				}
+			},
+			{
+				"name": "excerpt_len",
+				"type": "Text",
+				"label": "Excerpt length (in words)",
+				"tooltip": "Specify the value of the excerpt length used in the posts (the length is specified in words).",
+				"default": "55"
+			}
+			
+					]
+	},
+	{
+		"groupname": "Another Content Setting",
+		"groupdesc": "You can set here another content content related settings.",
+		"fields": [
+			{
+				"name": "portfolio_items_per_page",
+				"type": "Text",
+				"label": "Portfolio items per page",
+				"tooltip": "Here you can set how many portfolio items will be displayed on one page in portfolio view. By default it is 10 items.",
+				"default": "10",
+				"class": ""
+			},
+			{
+				"name": "portfolio_default_page",
+				"type": "Text",
+				"label": "Portfolio page default link",
+				"tooltip": "Here you can set portfolio page default link. It is used as return URL for single protfolio view. If you leave it blank link to default portfolio view in single item portfolio view will be not displayed.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "contact_template_email",
+				"type": "Text",
+				"label": "Contact e-mail",
+				"tooltip": "Specifies e-mail used on the Contact page template",
+				"default": "",
+				"class": "",
+				"visibility": ""
+			}
+			
+					]
+	}
+]

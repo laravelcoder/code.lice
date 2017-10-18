@@ -1,0 +1,76 @@
+/**
+ *
+ * -------------------------------------------
+ * Style9 Pink #CD2D78
+ * -------------------------------------------
+ *
+ **/
+body, article > .content {font-size:14px}
+h1 {font-size:32px}
+h2 {font-size:24px}
+h3 {font-size:20px}
+h4 {font-size:18px}
+h5 {font-size:16px}
+h6 {font-size:14px}
+#dp-footer, #dp-footer h1, #dp-footer h2, #dp-footer h3, #dp-footer h4, #dp-footer h5, #dp-footer li  {font-size:99%!important}
+.dp-header-wrapper {background:#f5f5f5 ;}
+.dp-header-wrapper {color:#ffffff}
+.dp-header-wrapper h3.box-title, .dp-header-wrapper h2 {color:#ffffff!important}
+.dp-header-wrapper a {color:#CD2D78}
+.dp-header-wrapper a:hover {color:#f2f2f2}
+.dp-header-wraper-inner {height:100%;background: url(); background-size:cover;)}
+.dp-subheader-wrapper {background:#232D37 ;}
+.dp-subheader-wrapper {color:!important}
+.dp-subheader-wraper-inner {height:100%;background: url(http://localhost/evolve/evolve_10/wp-content/uploads/2014/03/parallex-inner.jpg); background-size:cover;)}
+#dp-head-wrap {background-color: transparent}
+#dp-sticky-navigation-wrapper, .page-template-template-contact-php #dp-head-wrap.semi-transparent {background-color:#ffffff;background-color: rgba(255,255,255,0.9)!important}
+.sf-menu li.root a:hover, .sf-menu li.root.current-menu-item a {color: #CD2D78;}
+.sf-menu li.root.current-menu-item a {-webkit-box-shadow: inset 0px 4px 0px 0px #CD2D78;-moz-box-shadow: inset 0px 4px 0px 0px #CD2D78;	box-shadow: inset 0px 4px 0px 0px #CD2D78;}
+ul.item-nav li.prev a:hover, ul.item-nav li.next a:hover, ul.item-nav li.all a:hover  {	border-color: #CD2D78;background-color: #CD2D78;}
+#main-menu li a:after {	background: #CD2D78;}
+.sf-menu a, #main-menu > li.megamenu  a.column-header, #main-menu > li.megamenu  a.column-header:hover, #main-menu > li.megamenu-full  a.column-header, #main-menu > li.megamenu-full  a.column-header:hover, #dp-button-area a, #dp-header-search, #dp-logout, #dp-login {color: #2d3e52;}
+.dp-subheader-wraper {background: #2d3e52 ;}
+.dp-subheader  .main-title, .dp-subheader  .sub-title, .dp-subheader #dp-breadcrumb-fontsize, .dp-subheader .dp-breadcrumbs > span, .dp-subheader .dp-breadcrumbs a {color:#ffffff!important;}
+.bgimage .dp-subheader  .main-title, .bgimage .dp-subheader  .sub-title, .bgimage .dp-subheader #dp-breadcrumb-fontsize, .bgimage .dp-subheader .dp-breadcrumbs > span,.bgimage .dp-subheader .dp-breadcrumbs a {color:#ffffff;text-shadow:0 1px 1px rgba(0, 0, 0, 0.7);}
+.dp-page-wrap, .dp-page-wrap .dp-nsp-text {color:#7A7A7A;}
+.dp-page-wrap a, article section.content a, article section.intro a {color:#CD2D78}
+.dp-page-wrap a:hover {color:#76797C;}
+.dp-page-wrap .dp-recent-post-widget a, .dp-page-wrap .widget_dp_comments a, .dp-page-wrap .dp-nsp-header a {color:#A0A5AA!important}
+.dp-page-wrap .dp-recent-post-widget a:hover,.dp-page-wrap .widget_dp_comments a:hover, .dp-page-wrap header h2 a:hover, .dp-page-wrap .dp-nsp-header a:hover, .comment-reply-link:hover {color:#CD2D78!important}
+#dp-footer-wrap {background:#232D37 ;}
+#dp-footer {color:#BCC1C5}
+#dp-footer .box-title, #dp-footer h2 {color:#ffffff}
+#dp-footer .box a {color:#ffffff}
+#dp-footer .box a:active, #dp-footer .box a:focus, #dp-footer .box a:hover {color:#CD2D78}
+#dp-footer .dp-recent-post-widget a, #dp-footer.widget_dp_comments a, #dp-footer2 .dp-page-wrap .widget_dp_comments a {color:#BCC1C5!important}
+#footer-menu li a {color:#BCC1C5}
+#footer-menu li a:hover {color:#ffffff}
+.headline.big-centered h3, .landing-boxes h3, .landing-boxes p, h1, h2, h3, h4, h5, h6, .plan h3, .accent-color-3, #footer-social-bar a:before, #footer-social-bar a:after, #dp-copyright {	color: #2d3e52;	}
+.plan-features .button-area a, .premium.plan h3, .premium .plan-features a.button, .skill-bar span strong, .accent-bg-3 {	background-color: #2d3e52;}
+.plan-features .button-area a, .accent-border-3, .readon1 {	border-color: #2d3e52;}
+.skill-bar span strong:after {border-color: #2d3e52 transparent;}
+.readon1, .readon1:hover, .readon1 a {color:#2d3e52!important;}
+.highlight.gray, div.dp_legend2 h4, .button_sc:hover, .button_sc.color:hover, .button_sc.dark, .button_sc.white:hover, .featured-box:hover > .circle-1, .featured-box:hover > .square-1, .button-group .button.leftbutton, .btn:active,.btn.active,button:active,a.dp-button:active,a.dp-button.active,input[type="button"]:active,input[type="submit"]:active, #respond input[type="submit"]:hover, #searchform #searchsubmit:hover, .wpcf7 input[type="submit"]:hover, .button_sc.black:hover, .button_sc.pink:hover, .button_sc.teal:hover, .button_sc.gray:hover, .button_sc.limon:hover, .button_sc.burgund:hover, .button_sc.orange:hover, .button_sc.purple:hover, .button_sc.coffee:hover, .button_sc.blue:hover   { background-color: #A0A5AA;}
+.button_sc:hover, .button_sc.color:hover, .button_sc.dark, .button_sc.white:hover, .button_sc.black:hover, .button_sc.pink:hover, .button_sc.teal:hover, .button_sc.gray:hover, .button_sc.limon:hover, .button_sc.burgund:hover, .button_sc.orange:hover, .button_sc.purple:hover, .button_sc.coffee:hover, .button_sc.blue:hover {border-color:#A0A5AA;}
+.btn:hover, .btn:active,.btn.active,.btn.disabled,.btn[disabled],button:hover,input[type="button"]:hover,input[type="submit"]:hover,button:active,input[type="button"]:active,input[type="submit"]:active,button.disabled,input[type="button"].disabled,input[type="submit"].disabled,a.dp-button:hover,a.dp-button:active,a.dp-button.active,a.dp-button.disabled,a.dp-button[disabled] { background-color: #A0A5AA!important;}
+.pagination a:hover, .pagination .current , .dp_icon.accented, #dp-popup-login input[type="submit"]:hover, #dp-popup-login .button:hover,#back-to-top:hover, .button_sc, .button_sc.color, .button_sc.dark:hover, .button_sc.light:hover, .button_sc.line:hover, .button, .plan-features .button-area a:hover, .premium.plan h3, .premium .plan-features, .tp-bullets.simplebullets.round .bullet:hover, .tp-bullets.simplebullets.round .bullet.selected, .highlight.color, .button-group .button.rightbutton, .button-group .button.leftbutton:hover, button, a.dp-button, input[type="button"], input[type="submit"], .dp-readon:hover, .readon:hover, .avatar:hover img, #respond input[type="submit"], .wpcf7 input[type="submit"], #searchform #searchsubmit, .medium .date-container, .summary.link, .summary.quote, .summary.status, .accent-bg-1, #dp-cookie-law, #dp-popup-cookie-law .close, .dp-thumb-container .thumb-overlay, .dp-thumb-container .thumb-overlay, .box #wp-calendar #today, .medium .date-container,  .flexgallery .flexslider .flex-next:hover, .flexgallery .flexslider .flex-prev:hover, .flexgallery .gallery-post-title, .flex-control-paging li a.flex-active, .incontent_content .flex-direction-nav .flex-next:hover, .incontent_content .flex-direction-nav .flex-prev:hover, .easyPieChart2, .skill-bar span, .toggle.faq .toggle_title.current, .services-box-animated .back, .circle-2, .square-2, .featured-box:hover > .circle, .featured-box:hover > .circle span, .featured-box:hover > .circle-1, .featured-box:hover > .square-1, .jp-volume-bar-value, .jp-volume-bar-value.frame_caption .captions .cap2, .tipsy-inner, .jp-play-bar, .dp_icon.accented,  .vtabs li.current, .social a:hover {background-color: #CD2D78;}
+.dp-nsp-header a:active, .dp-nsp-header a:focus, .dp-nsp-header a:hover, .newsline  a:hover, .dark .newsline  a:hover, .owl-theme .owl-controls .owl-buttons .owl-next:hover, .owl-theme .owl-controls .owl-buttons .owl-prev:hover, .list-1.color li:before, .list-2.color li:before, .list-3.color li:before, .list-4.color li:before, span.dropcap, .button_sc.line span, .premium .plan-price, .premium .plan-currency, .premium .plan-features .button-area a:hover, .toggle_title:hover .toggle_indicator:before, .acc_title:hover span.toggle_indicator, .testimonials-author, .happy-clients-author, featured-box:hover > .circle-2 i, .featured-box:hover > .square-2 i, .circle-1 i, .square-1 i, .icons-center i, .icon-lefted i, .circle-2-line i, .featured-box:hover > .circle-2-line i, .square-2-line i, .featured-box:hover > .square-2-line i, .page404 h1, .accent-color-1, .top-contact-bar i, .item-description a:hover h5, aside.meta a:active, aside.meta a:focus, aside.meta a:hover, aside.meta .day, .large .date-container .like a:hover, .box #wp-calendar td#prev a, .box #wp-calendar td#next a, .box.dark a:active, .box.dark a:focus, .box.dark a:hover, #dp-head a.textLogo, #dp-header-search:hover, #dp-login:hover, #dp-logout:hover, #dp-copyright a:active, #dp-copyright a:focus, #dp-copyright a:hover, div.meta a:hover, .box.accented-title .box-title  {color: #CD2D78;}
+.recent-post-widget .thumbnail:hover, .tp-bullets.simplebullets.round .bullet.selected, .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span, blockquote, .button_sc, .button_sc.color, .button_sc.dark:hover, .button_sc.light:hover, .button_sc.line, .services-box-animated .back, .circle-1, .square-1, .circle-2-line, .square-2-line, .incontent_content .flex-direction-nav .flex-next:hover, .incontent_content .flex-direction-nav .flex-prev:hover, .accent-border-1, .accent-underline, .readon, .readon2, .dp-readon, .pagination a:hover, .pagination .current, .theme-default .nivo-controlNav a.active, .divider_line_accented, .accent-border-1 {border-color: #CD2D78}
+.team-email a:hover, .blog-grid .meta a:hover, .blog-grid .dp-readon:hover span, .readon, .readon2, .readon2:hover, .readon2 a, .dp-readon, .dp-readon a, #dp-sidebar ul.menu li a:hover  {color: #CD2D78!important;}
+.portfolio-tabs li.active a, .portfolio-tabs li a:hover, .blog-tabs li.active a, .blog-tabs li a:hover, .box.accented-bg, .wpb_accordion .wpb_accordion_wrapper .ui-accordion-header-active, .wpb_accordion .wpb_accordion_wrapper .ui-accordion-header-active, .vc-carousel-indicators li, .wpb_accordion .wpb_accordion_wrapper .ui-accordion-header-active, .vc-carousel-indicators li, .vc_progress_bar .vc_single_bar .vc_bar,  .sb-navigation-left:hover, .sb-navigation-right:hover  {	background-color: #CD2D78!important;}
+.wpb_accordion .wpb_accordion_wrapper .ui-accordion-header-active, .wpb_accordion .wpb_accordion_wrapper .ui-accordion-header-active, .vc-carousel-indicators li, .vc-carousel-indicators .vc-active, .wpb_accordion .wpb_accordion_wrapper .ui-accordion-header-active, .vc-carousel-indicators li, .vc-carousel-indicators .vc-active, .sb-navigation-left:hover, .sb-navigation-right:hover  {border-color:#CD2D78!important;}
+.tipsy-arrow-n {border-bottom-color: #CD2D78;}
+.tipsy-arrow-s {border-top-color: #CD2D78;}
+.tipsy-arrow-e {border-left-color: #CD2D78;}
+.tipsy-arrow-w {border-right-color: #CD2D78;}
+.featured-box:hover > .circle-2, .featured-box:hover > .square-2 { box-shadow: 0 0 0 1px #CD2D78; }
+.no-touch .dp-style-6 figure:hover .thumb-overlay, .dp-style-6 figure.cs-hover .thumb-overlay {box-shadow: 0 0 0 10px #CD2D78;}
+.list-1 li:before, .list-2 li:before, .list-3 li:before, .list-4 li:before, blockquote, div.dp_legend1 h4, .button_sc.light span, .twitter:before, .wordpress:before, .facebook:before, .linkedin:before, .steam:before, .tumblr:before, .github:before, .delicious:before, .instagram:before, .xing:before, .amazon:before, .dropbox:before, .paypal:before, .lastfm:before, .gplus:before, .yahoo:before, .pinterest:before, .dribbble:before, .flickr:before, .reddit:before, .vimeo:before, .spotify:before, .rss:before, .youtube:before, .blogger:before, .appstore:before, .digg:before, .evernote:before, .fivehundredpx:before, .forrst:before, .stumbleupon:before, .dribbble:before, .comments-amount {color: #A0A5AA;}
+p.stock, span.price, p.price, table.group_table td.price span.amount, .woocommerce.box ins, .woocommerce.box span.amount, .woocommerce .star-rating span, .woocommerce-page .star-rating span { color: #CD2D78;}
+.dp-woocommerce-breadcrumbs a:active, .dp-woocommerce-breadcrumbs a:focus, .dp-woocommerce-breadcrumbs a:hover, .product-subtotal span.amount{ color: #CD2D78!important;}
+.page-numbers li .current, .page-numbers a:hover, .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-main-image.zoom .dp-wc-zoom > span > span, .wc-product-overlay .dp-wc-view > span > span, .woocommerce-main-image.zoom .dp-wc-zoom > span > span, .woocommerce-message, .woocommerce-error, .woocommerce-info, #payment div.payment_box, ul.products li.product .onsale, span.onsale    { background-color: #CD2D78;}
+.woocommerce .button:hover, table.cart a.remove, #content table.cart a.remove, .sb-navigation-left:hover, .sb-navigation-right:hover { background-color: #CD2D78!important;}
+ .page-numbers li .current, .page-numbers a:hover, p.total, .widget_price_filter .ui-slider .ui-slider-handle, #payment ul.payment_methods, .cart-collaterals .cart_totals tr.total td, .cart-collaterals .cart_totals tr.total th, .sb-navigation-left:hover, .sb-navigation-right:hover{ border-color: #CD2D78!important;}
+.woocommerce .button, table.shop_table thead th { color:#fff!important; background: #A0A5AA!important;}
+#payment div.payment_box::after {border: 8px solid #CD2D78;border-right-color: transparent;border-left-color: transparent;	border-top-color: transparent;}
+.spin {border-right: 3px solid #CD2D78!important;border-bottom: 3px solid #CD2D78!important;border-top: 3px solid #CD2D78!important;}

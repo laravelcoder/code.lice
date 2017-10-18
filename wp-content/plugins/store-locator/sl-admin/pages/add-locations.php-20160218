@@ -1,0 +1,240 @@
+<?php
+if (!empty($_GET['pg']) && isset($wpdb) && $_GET['pg']=='add-locations') { include_once(SL_INCLUDES_PATH."/top-nav.php"); }
+
+if (!isset($wpdb)){ include("../../../../wp-load.php"); }
+if (!defined("SL_INCLUDES_PATH")) { include("../sl-define.php"); }
+if (!function_exists("sl_initialize_variables")) { include("../sl-functions.php"); }
+if (defined('SL_ADDONS_PLATFORM_FILE') && file_exists(SL_ADDONS_PLATFORM_FILE)) { include_once(SL_ADDONS_PLATFORM_FILE); } //check if this inclusion is actually necessary here anymore - 3/19/14
+
+print "<div class='wrap'>";
+/*print "<h2>".__("Add Locations", SL_TEXT_DOMAIN)."</h2><br>";*/
+
+global $wpdb;
+sl_initialize_variables();
+
+//Inserting addresses by manual input
+if (!empty($_POST['sl_store']) && (empty($_GET['mode']) || $_GET['mode']!="pca")) {
+	if (!empty($_POST['_wpnonce']) && wp_verify_nonce($_POST['_wpnonce'], "add-location_single")){
+		sl_add_location();
+		print "<div class='sl_admin_success'>".__("Successful Addition",SL_TEXT_DOMAIN).". $view_link</div> <!--meta http-equiv='refresh' content='0'-->";
+	} else {
+		print "<div class='sl_admin_warning'>".__("Unsucessful addition due to security check failure",SL_TEXT_DOMAIN).". $view_link</div>";
+	}
+}
+
+//Importing addresses from an local or remote database
+if (!empty($_POST['remote']) && trim($_POST['query'])!="" || !empty($_POST['finish_import'])) {
+
+	if (!empty($_POST['server']) && preg_match("@.*\..{2,}@", $_POST['server'])) {
+		include(SL_ADDONS_PATH."/db-importer/remoteConnect.php");
+	} else {
+		if (file_exists(SL_ADDONS_PATH."/db-importer/localImport.php")) {
+			include(SL_ADDONS_PATH."/db-importer/localImport.php");
+		} elseif (file_exists(SL_ADDONS_PATH."/csv-xml-importer-exporter/localImport.php")) {
+			include(SL_ADDONS_PATH."/csv-xml-importer-exporter/csv-xml-importer-exporter.php");
+			include(SL_ADDONS_PATH."/csv-xml-importer-exporter/localImport.php");
+		}
+	}
+	//for intermediate step match column data to field headers
+	if (empty($_POST['finish_import']) || $_POST['finish_import']!="1") {exit();}
+}
+
+//Importing CSV file of addresses
+$newfile="temp-file.csv";
+//$root=plugin_dir_path(__FILE__); //dirname(plugin_basename(__FILE__)); die($root);
+$root=SL_ADDONS_PATH;
+$target_path="$root/";
+//die($root);
+
+//print_r($_FILES);
+if (!empty($_FILES['csv_import']['tmp_name']) && move_uploaded_file($_FILES['csv_import']['tmp_name'], "$root/$newfile") && file_exists(SL_ADDONS_PATH."/csv-xml-importer-exporter/csvImport.php")) {
+	die("ERREE");
+	include(SL_ADDONS_PATH."/csv-xml-importer-exporter/csvImport.php");
+}
+else{
+		//echo "<div style='background-color:salmon; padding:5px'>There was an error uploading the file, please try again. </div>";
+}
+
+//If adding via the Point, Click, Add map (accepting AJAX)
+if (!empty($_REQUEST['mode']) && $_REQUEST['mode']=="pca") {
+	include(SL_ADDONS_PATH."/point-click-add/pcaImport.php");
+}
+
+print "
+<table cellpadding='' cellspacing='0' style='width:100%' class='manual_add_table'><tr>
+<td style='/*border-right:solid silver 1px;*/ padding-top:0px; width:50%' valign='top'>".sl_location_form("add")."</td>
+<td style='/*border-right:solid silver 1px;*/ padding-top:0px;' valign='top'>";
+
+function csv_importer(){
+	global $sl_uploads_path, $sl_path, $text_domain, $web_domain;
+	if (file_exists(SL_ADDONS_PATH."/csv-xml-importer-exporter/csv-import-form.php")) {
+		//include(SL_ADDONS_PATH."/csv-xml-importer-exporter/csv-import-form.php");
+	//	print "<br>";
+
+		if(isset($_REQUEST['new_csv_btn'])){
+			define('CSV_PATH','C:/wamp/www/csvfile/');
+			// path where your CSV file is located
+			$csv_file = $_FILES['new_csv_import']['tmp_name']; // Name of your CSV file
+			$csvfile = fopen($csv_file, 'r');
+			$theData = fgets($csvfile);
+			$i = 0;
+
+
+			 //get the csv file
+				$file = $_FILES['new_csv_import']['tmp_name'];
+				$handle = fopen($file,"r");
+
+
+
+				$count=1;
+				global $wpdb;
+				//loop through the csv file and insert into database
+do{
+	if ($data[0]) {
+
+        //echo "<xmp>";
+
+    	//print_r($data);
+
+
+		if($count == 1){
+			$fieldArr = $data;
+			$flipped = array_flip($fieldArr);
+		}
+
+		//print_r($flipped);
+		//die("</xmp>");
+		if($count!=1){
+			if(strtolower($data[$flipped['LCoA Locator']]) == 'yes'){
+			$countRec = $wpdb->get_var('select count(*) as total from wp_store_locator where `sl_address` = "'.@utf8_encode(trim($data[$flipped['Location']])).'"');
+			if(empty($countRec)){
+				$sqlQuery=$wpdb->query('insert into wp_store_locator set
+				`sl_store` = "'.@utf8_encode($data[$flipped['Service Provider']]).'" ,
+				`sl_address` = "'.@utf8_encode(trim($data[$flipped['Location']])).'" ,
+				`sl_type` = "'.@utf8_encode($data[$flipped['Type']]).'",
+				`sl_phone` = "'.@utf8_encode($data[$flipped['Number']]).'",
+				`sl_facebook_phone_number` = "'.@utf8_encode($data[$flipped['Facebook Phone Number']]).'",
+				`sl_website` = "'.@utf8_encode($data[$flipped['Website']]).'",
+				`sl_seo_landing_page`= "'. @utf8_encode($data[$flipped['SEO Landing Page']]).'",
+				`sl_image` = "'.@utf8_encode($data[$flipped['Logo_LCoA']]).'",
+				`sl_latitude` = "'.@utf8_encode($data[$flipped['Latitude']]).'",
+				`sl_longitude` = "'.@utf8_encode($data[$flipped['Longitude']]).'",
+				`sl_real_phone` = "'.@utf8_encode($data[$flipped['Real Phone #']]).'",
+				`sl_ppc_landing_page` = "'.@utf8_encode($data[$flipped['PPC Landing Page #']]).'",
+				`sl_landing_page` = "'.@utf8_encode($data[$flipped['Landing Page']]).'",
+				`sl_first_name` = "'.@utf8_encode($data[$flipped['First Name']]).'",
+				`sl_last_name` = "'.@utf8_encode($data[$flipped['Last Name']]).'",
+				`sl_email` = "'.@utf8_encode($data[$flipped['Email']]).'",
+				`sl_category` = "'.@utf8_encode($data[$flipped['Category']]).'",
+				`sl_action` = "'.@utf8_encode($data[$flipped['Action']]).'",
+				`sl_label` = "'.@utf8_encode($data[$flipped['Label']]).'",
+				`sl_tags` = "'.@utf8_encode($data[$flipped['Tags']]).'",
+				`sl_youtube_phone_number` = "'.@utf8_encode($data[$flipped['YouTube Phone Number']]).'",
+				`sl_category_facebook` = "'.@utf8_encode($data[$flipped['Category Facebook']]).'",
+				`sl_category_youtube` = "'.@utf8_encode($data[$flipped['Category YouTube']]).'",
+				`sl_lcoa_locator` = "'.@utf8_encode($data[$flipped['LCoA Locator']]).'",
+				`sl_description` = "'.@utf8_encode($data[$flipped['Description']]).'"');
+			}else{
+				$sqlQuery=$wpdb->query('update wp_store_locator set
+				`sl_store` = "'.@utf8_encode($data[$flipped['Service Provider']]).'" ,
+				`sl_type` = "'.@utf8_encode($data[$flipped['Type']]).'",
+				`sl_phone` = "'.@utf8_encode($data[$flipped['Number']]).'",
+				`sl_facebook_phone_number` = "'.@utf8_encode($data[$flipped['Facebook Phone Number']]).'",
+				`sl_website` = "'.@utf8_encode($data[$flipped['Website']]).'",
+				`sl_seo_landing_page`= "'. @utf8_encode($data[$flipped['SEO Landing Page']]).'",
+				`sl_image` = "'.@utf8_encode($data[$flipped['Logo_LCoA']]).'",
+				`sl_latitude` = "'.@utf8_encode($data[$flipped['Latitude']]).'",
+				`sl_longitude` = "'.@utf8_encode($data[$flipped['Longitude']]).'",
+				`sl_real_phone` = "'.@utf8_encode($data[$flipped['Real Phone #']]).'",
+				`sl_ppc_landing_page` = "'.@utf8_encode($data[$flipped['PPC Landing Page #']]).'",
+				`sl_landing_page` = "'.@utf8_encode($data[$flipped['Landing Page']]).'",
+				`sl_first_name` = "'.@utf8_encode($data[$flipped['First Name']]).'",
+				`sl_last_name` = "'.@utf8_encode($data[$flipped['Last Name']]).'",
+				`sl_email` = "'.@utf8_encode($data[$flipped['Email']]).'",
+				`sl_category` = "'.@utf8_encode($data[$flipped['Category']]).'",
+				`sl_action` = "'.@utf8_encode($data[$flipped['Action']]).'",
+				`sl_label` = "'.@utf8_encode($data[$flipped['Label']]).'",
+				`sl_tags` = "'.@utf8_encode($data[$flipped['Tags']]).'",
+				`sl_youtube_phone_number` = "'.@utf8_encode($data[$flipped['YouTube Phone Number']]).'",
+				`sl_category_facebook` = "'.@utf8_encode($data[$flipped['Category Facebook']]).'",
+				`sl_category_youtube` = "'.@utf8_encode($data[$flipped['Category YouTube']]).'",
+				`sl_lcoa_locator` = "'.@utf8_encode($data[$flipped['LCoA Locator']]).'",
+				`sl_description` = "'.@utf8_encode($data[$flipped['Description']]).'"
+				where `sl_address` = "'.@utf8_encode(trim($data[$flipped['Location']])).'"');
+			}
+
+			$count++;
+			}
+		}
+		$count++;
+	}
+} while ($data = fgetcsv($handle,1000));
+
+
+			//fclose($csvfile);
+		echo "File data successfully imported to database!!";
+		//mysql_close($connect);
+		}
+		?>
+		<form action="" method="post" enctype="multipart/form-data">
+			<table cellpadding="0" class="widefat">
+				<thead><tr><th>New Import&nbsp;CSV&nbsp;File&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th></tr></thead>
+				<tbody><tr><td>
+				<input type="file" name="new_csv_import">
+				<br><br>
+				<input type="submit" class="button" value="Import" name="new_csv_btn"></td></tr>
+				</tbody>
+			</table>
+		</form>
+		<?php
+	}
+}
+function db_importer(){
+	global $sl_uploads_path, $sl_path, $text_domain, $web_domain;
+	if (file_exists(SL_ADDONS_PATH."/db-importer/db-import-form.php")) {
+		//include(SL_INCLUDES_PATH."/sl-env.php");
+		include(SL_ADDONS_PATH."/db-importer/db-import-form.php");
+	}
+}
+function point_click_add(){
+	global $sl_uploads_path, $sl_path, $text_domain, $web_domain;
+	if (file_exists(SL_ADDONS_PATH."/point-click-add/point-click-add-form.php")) {
+		include(SL_ADDONS_PATH."/point-click-add/point-click-add-form.php");
+	}
+}
+function sl_csv_db_pca_forms(){
+  if (file_exists(SL_ADDONS_PATH."/db-importer/db-import-form.php") || file_exists(SL_ADDONS_PATH."/point-click-add/point-click-add-form.php") || file_exists(SL_ADDONS_PATH."/csv-xml-importer-exporter/csv-import-form.php")) {
+	print "<table><tr>";
+	if (file_exists(SL_ADDONS_PATH."/csv-xml-importer-exporter/csv-import-form.php") || file_exists(SL_ADDONS_PATH."/db-importer/db-import-form.php")) {
+		print "<td style='vertical-align:top; padding-top:0px'>";
+		csv_importer();
+		db_importer();
+		print "</td>";
+	}
+	if (file_exists(SL_ADDONS_PATH."/point-click-add/point-click-add-form.php")) {
+		print "<td style='vertical-align:top; padding-top:0px'>";
+		point_click_add();
+		print "</td>";
+	}
+		print "</tr></table>";
+  }
+}
+if (function_exists("addto_sl_hook")) {
+	addto_sl_hook('sl_add_location_forms', 'csv_importer','','','csv-xml-importer-exporter');
+	addto_sl_hook('sl_add_location_forms', 'db_importer','','','db-importer');
+	addto_sl_hook('sl_add_location_forms', 'point_click_add','','','point-click-add');
+} else {
+	sl_csv_db_pca_forms();
+}
+
+if (function_exists("do_sl_hook")) {do_sl_hook('sl_add_location_forms', 'select-top');}
+
+
+
+print "</td>
+</tr>
+</table>
+</div>";
+
+include(SL_INCLUDES_PATH."/sl-footer.php");
+?>

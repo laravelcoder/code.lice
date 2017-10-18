@@ -1,0 +1,163 @@
+.plugin_config {
+  padding-right: 20px;
+
+  &.loading {
+    position: relative;
+    &:after {
+      content: " ";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .75);
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+    &:before {
+      content: " ";
+      position: absolute;
+      width: 200px;
+      height: 150px;
+      background-image: url("/wp-content/plugins/lca-store-locator/img/loading.gif");
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 11;
+    }
+  }
+  #allLocations {
+    position: relative;
+    .alert {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  #locations {
+    table {
+      width: 100%;
+      th {
+        text-align: left;
+      }
+    }
+  }
+
+  #numOfResults {
+    float: right;
+    margin-bottom: 0;
+  }
+
+  .results-per-page {
+    margin: 6px 6px 6px 0;
+  }
+
+  .pagination {
+    margin: 6px 0;
+    .ellipse {
+      input {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 21px;
+        width: 50px;
+      }
+      input[type='number'] {
+        -moz-appearance: textfield;
+      }
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    }
+  }
+
+  #productListContainer {
+    #inputProducts {
+      display: none;
+    }
+    .list {
+      height: 206px;
+      overflow-y: auto;
+    }
+  }
+
+  #locationModal {
+    .modal-content {
+      .modal-body {
+        min-height: 626px;
+        #map {
+          width: 388px;
+          height: 294px;
+        }
+        .glyphicon-remove-circle {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  #myFilterModal {
+    .country-filter {
+      margin-bottom: 15px;
+      .country-name {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  #importModal {
+    transform: translateY(-50%);
+    top: 50%;
+
+    .progress {
+      width: 100%;
+      transform: translateY(-50%);
+      margin-top: 20px;
+    }
+
+    .uploading-log {
+      width: 100%;
+      color: #000000;
+      font-size: 14px;
+      line-height: 20px;
+      height: 200px;
+      overflow-y: auto;
+    }
+  }
+
+  .modal {
+    &.loading {
+      overflow: hidden;
+      .modal-dialog {
+        &:after {
+          content: "parsing";
+          text-indent: -9999px;
+          left: 0;
+          top: 0;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.75);
+          z-index: 1000;
+          border-radius: 6px;
+        }
+        &:before {
+          content: "parsing";
+          text-indent: -9999px;
+          left: 0;
+          top: 0;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-image: url("/wp-content/plugins/lca-store-locator/img/loading.gif");
+          z-index: 1001;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+}

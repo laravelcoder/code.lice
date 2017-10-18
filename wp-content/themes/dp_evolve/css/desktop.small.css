@@ -1,0 +1,70 @@
+/**
+ *
+ * -------------------------------------------
+ * Small Desktop CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 10. Small Desktop code
+ *
+ *
+------------------------------------ */
+ 
+/* 10.1. Base elements
+==================================== */ 
+
+body #dp-footer,
+body #dp-copyright {
+	margin: 0 10px!important;
+	width: auto;
+}
+
+#top-menu {
+	width: 100%;
+}
+#dp-social-icons {
+	clear: both;
+	margin-top: 10px;
+}
+
+#dp-search {
+	float: left;
+}
+
+.box {
+	padding: 10px!important;
+}
+
+.box.menu li {
+	margin: 0;
+}
+
+
+
+#dp-copyright {
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+
+#footer-menu {
+	display: inline-block;
+	float: none;
+	text-align: center;
+}
+
+#footer-menu li {
+	display: inline-block;
+	float: none;
+}
+
+.dp-copyrights {
+	clear: both;
+	float: none!important;
+	text-align: center;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev { left:-10px;}
+.owl-theme .owl-controls .owl-buttons .owl-next { right:-10px;}

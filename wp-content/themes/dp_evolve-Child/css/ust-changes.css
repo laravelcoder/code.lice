@@ -1,0 +1,231 @@
+#main-menu li a:after {
+    display: inline-block;
+    background: #2D0D03;
+}
+
+#main-menu {
+    position: relative;
+    float: right;
+    margin-right: 0px;
+    padding-right: 100px;
+}
+
+#main-menu li.root {
+    overflow: visible;
+}
+
+#main-menu li.root:not(:first-child) a:before {
+    float: left;
+    content: '|';
+    display: inline-block;
+    color: #E7E7E9;
+    padding: 0px 10px;
+    position: absolute;
+    left: -25px;
+}
+
+#main-menu li a:after {
+    display: none;
+}
+
+ul.submenu li a:before {
+    display: none !important;
+}
+
+.sub-indicator-0 {
+    display: none;
+    visibility: hidden;
+
+}
+
+.sf-menu li.root {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.sf-menu li.root:not(:last-child) ul {
+    position: absolute;
+    top: 100%;
+    min-width: 12em;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.sf-menu li.root:last-child ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.sf-menu li.root:last-child {
+    margin-right: 0px;
+}
+
+.sf-menu > li:last-child > ul {
+    float: none;
+    left: 5%;
+}
+
+.sf-menu li.root a {
+    overflow: visible;
+}
+
+.navigation .sf-menu a {
+    color: #717477;
+}
+
+#dp-sticky-navigation-wrapper #dp-head a.imageLogo {
+    padding-bottom: 15px;
+}
+
+#dp-sticky-navigation-wrapper #search-form-wrapper-1 {
+    border-bottom: 5px solid #5BC500;
+}
+
+.admin-bar .sticky {
+    top: 101px;
+}
+
+.clinic-locator-button.desktop {
+    margin-top: 0px;
+}
+
+#dp-mainmenu-collapse .sf-menu > li {
+    margin-left: 15px;
+}
+
+#dp-head {
+    padding: 0;
+}
+
+ul.connect {
+    padding-right: 100px;
+}
+
+ul.connect li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+ul.connect li:last-child {
+    margin-right: 0px;
+}
+
+.locate-me {
+    margin-bottom: 0px;
+    margin-top: -8px;
+    overflow: hidden;
+    max-height: 40px;
+}
+
+.locate-me input.addressSearch {
+    padding: 0px 10px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.locate-me .submit_field button {
+    padding: 0px 10px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+#dp-page-box .dp-page {
+    clear: both;
+}
+
+.locate-me h2 {
+    line-height: 1.5;
+}
+
+
+
+.clinic-container.sticky {
+    top: 77px;
+    z-index: 1001;
+}
+
+.dp-page-wrap {
+    padding-top: 0px;
+}
+
+.clinic-container:not(.sticky) {
+    overflow: auto;
+}
+
+#search-form-wrapper {
+    border-bottom: 5px solid #5BC500;
+    padding-bottom: 10px;
+    /*margin-bottom: -8px;*/
+}
+
+@media only screen and (max-width: 1055px) {
+    #main-menu li.root:not(:first-child) a:before {
+        float: left;
+        content: '|';
+        display: inline-block;
+        color: #E7E7E9;
+        padding: 0px 5px;
+        position: absolute;
+        left: -18px;
+    }
+
+    .sf-menu li.root {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #dp-mainmenu-collapse .sf-menu > li {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    #search-form-wrapper {
+        border-bottom: none;
+    }
+
+    .locate-me {
+        margin-bottom: 37px;
+        margin-top: -97px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        width: calc(100% - 30px);
+    }
+
+    .locate-me .the-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .clinic-container {
+        height: 40px;
+    }
+
+    .clinic-locator-button a {
+        /*top: 98px;*/
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .clinic-locator-button a {
+        /*top: 134px !important;*/
+    }
+}
+
+@media only screen and (max-width: 1163px) {
+    .clinic-container.sticky {
+        top: 137px;
+    }
+}
+
+@media only screen and (max-width: 603px) {
+    .locate-me {
+        max-height: none;
+    }
+}

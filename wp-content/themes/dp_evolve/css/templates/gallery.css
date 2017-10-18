@@ -1,0 +1,54 @@
+/**
+ *
+ * -------------------------------------------
+ * Stylesheet for the template.gallery.php page style
+ * -------------------------------------------
+ * 
+ **/
+.flexgallery {width:100%; margin: 0 0 30px 0;}
+.flexgallery.category { margin:15px 0 30px 0; overflow:hidden;}
+.flexgallery .flexslider .slides img {width:100%}
+.flexgallery .flexslider, .flexslider.carousel  {margin:0}
+.flexgallery .flex-control-nav {top:25px; z-index:10}
+.flexgallery .flexslider .flex-next {width: 30px; height: 30px;opacity: 0; right: 0px; background:#222 url(../../images/slideshows/flex/arrowRight.png) no-repeat 50% 50%;}
+.flexgallery .flexslider .flex-prev {width: 30px; height: 30px;opacity: 0; left: 0px; background:#222 url(../../images/slideshows/flex/arrowLeft.png) no-repeat 50% 50%;}
+
+.flexgallery .flexslider:hover .flex-next, .flexgallery .flexslider:hover .flex-prev {opacity: 0.4;}
+.flexgallery .flexslider .flex-next:hover, .flexgallery .flexslider .flex-prev:hover {opacity: 1; background-color:#5F8CB4}
+.flexgallery .panel {position:absolute; bottom:15px;z-index:15;max-width:75%;margin-left: 10px;}
+.flexgallery .gallery-post-title {color:#fff!important; text-transform:uppercase; font-size:18px; background-color:#5F8CB4;background-color: rgba(95, 140, 180, 0.9);line-height:18px; padding:12px 12px; display:inline-block;margin-bottom:4px;}
+.flexgallery .gallery-post-text {color:#fff!important; font-size:13px; background-color:#222;background-color: rgba(34,34,34,0.8); line-height:1.5em; padding:10px 12px;}
+.flexgallery figure {position:relative}
+.flexgallery figcaption {
+	background: rgba(0, 0, 0, 0.5);
+	bottom: -100%;
+	padding: 14px 20px 6px 20px;
+	position: absolute;
+	-webkit-transition: bottom 0.5s ease-out;
+	-moz-transition: bottom 0.5s ease-out;
+	-ms-transition: bottom 0.5s ease-out;
+	-o-transition: bottom 0.5s ease-out;
+	transition: bottom 0.5s ease-out;
+	width: 100%;
+	z-index: 2;
+}
+.flexgallery .flex-active-slide figcaption { bottom:0%}
+.flexgallery figcaption h3 {
+	color: #fff;
+	font-size: 16px;
+	margin: 0;
+}
+
+.flexgallery figcaption p {
+	color: #ddd;
+	font-size: 12px;
+	margin: 0;
+}
+
+.flexgallery figcaption small {
+	color: #aaa;
+	font-size: 9px;
+	margin: 0;
+	text-align: right;
+	text-transform: uppercase;
+}

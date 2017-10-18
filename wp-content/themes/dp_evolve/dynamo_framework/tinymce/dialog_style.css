@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+.panel_wrapper {border:1px solid #BBBBBB; padding:10px; padding-top:5px; clear:both; background:white;}
+.panel_wrapper label {font-size:12px;}
+.usage {font-size:12px; line-height: 1.4; padding:5px; color:#888; font-style:italic}
+.panel_wrapper h3 { color:#066995; font-family: Arial, Helvetica, sans-serif; font-weight:400; font-size:18px}
+.color_input { margin-left:10px; width:80px;}
+.hr {color:#DFDFDF; height:1px;}
+.panel_wrapper input {
+	border: solid 1px #E4E4E4;
+	line-height: 18px;
+	font-size:14px;
+	color: #555;
+	outline: none;
+	vertical-align: middle;
+	background: #F2F2F2;
+	background: -moz-linear-gradient(top, #F8F8F8 1%, #fefefe 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #F8F8F8), color-stop(100%, #fefefe));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8F8F8', endColorstr='#fefefe', GradientType=0);
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .75);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .75);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .75);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: default;
+	padding-left:3px;
+	
+	}
+.panel_wrapper textarea {
+	border: solid 1px #E4E4E4;
+	line-height: 18px;
+	font-size:14px;
+	color: #555;
+	outline: none;
+	vertical-align: middle;
+	background: #F2F2F2;
+	background: -moz-linear-gradient(top, #F8F8F8 1%, #fefefe 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #F8F8F8), color-stop(100%, #fefefe));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8F8F8', endColorstr='#fefefe', GradientType=0);
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .75);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .75);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .75);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: default;
+	padding-left:3px;
+	
+	}
+.upload_label{width:120px;padding-left:3px;}
+.label100 {display: block; width: 100%;}
+.width100percent {width:100%;}
+.width50 {width:50px;}
+.width80 {width:80px;}
+.width100 {width:100px;}
+.width130 {width:130px;}
+.width120 {width:120px;}
+.width160 {width:160px;}
+.width180 {width:180px;}
+.width220 {width:220px;}
+.width240 {width:230px;}
+.width260 {width:260px;}
+.width260 {width:260px;}
+.width300 {width:300px;}
+.width420 {width:420px;}
+.height200 {height:200px;}
+.height255 {height:255px;}
+.height260 {height:260px;}
+.height270 {height:270px;}
+.height280 {height:280px;}
+.height355 {height:355px;}
+.height380 {height:380px;}
+.height390 {height:390px;}
+.height485 {height:485px;}
+.height500 {height:500px;}
+.previewicon {margin-left:15px;}
+.previewicon i {font-size:18px; color:#777;}

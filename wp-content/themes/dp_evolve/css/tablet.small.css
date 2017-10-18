@@ -1,0 +1,82 @@
+/**
+ *
+ * -------------------------------------------
+ * Small Tablet CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 12. Small Tablet code
+ *
+ *
+------------------------------------ */
+ 
+/* 12.1. Base elements
+==================================== */ 
+
+#dp-mainbody-columns > section {
+	background-image: none!important;
+} 
+
+#dp-content-wrap {
+	border-bottom: 1px solid #e5e5e5;
+	width: 100%!important;
+}
+.portfolio-item-wrapper {width:100%!important;}
+.portfolio-four .portfolio-item, .portfolio-three .portfolio-item, .portfolio-two .portfolio-item {
+	width:100%!important;
+	float: none;
+	margin-left:0!important;
+	margin-right:0!important;
+}
+.item12 .portfolio-item, .item16 .portfolio-item, .item20 .portfolio-item, .item25 .portfolio-item, .item33 .portfolio-item {width:49.9%}
+
+.portfolio-wrapper {}
+.item-info-overlay h3 {padding: 5px 0 10px 10px; font-size:16px;}
+.item-info-overlay h6 {padding: 8px 0 0 10px; font-size:12px;}
+.item-info-overlay a.preview {right:10px; font-size:11px;bottom:10px;}
+
+.one_fourth, .one_half {width:100%!important; margin:10px!important;}
+.centered .tab_title {
+	padding:12px 12px 9px 12px;
+	font-size:17px;
+	line-height:17px!important;
+	height:auto;
+}
+@media only screen and (max-width: 780px) {.admin-bar #dp-mobile-menu {margin-top:45px;}
+.admin-bar #close-mobile-menu {
+	top: 53px;
+}
+}
+.button-group {
+	width:420px;
+	overflow:visible;
+}
+.vc_span10.wpb_column, .vc_span9.wpb_column, .vc_span8.wpb_column, .vc_span7.wpb_column, .vc_span6.wpb_column, .vc_span5.wpb_column, .vc_span4.wpb_column, .vc_span3.wpb_column, .vc_span2.wpb_column, .vc_span1.wpb_column	{
+                            	margin-bottom:10px!important;
+}
+
+.dp-subheader .main-title {font-size:26px;font-weight:100;line-height:30px}
+.dp-subheader .sub-title {font-size:12px;}
+.dp-subheader .dp-breadcrumbs {position:absolute;right:15px;top:65px;font-size:12px;}
+
+.related ul.products li.product, 
+.related ul li.product, 
+.upsells.products ul.products li.product, 
+.upsells.products ul li.product {
+	width: 100%!important;
+}
+div.product div.images,
+#content div.product div.images {
+	float: none;
+	width: 100%!important;
+}
+
+.attachment-shop_thumbnail {float:left; margin-right:10px;}
+div.product div.summary,
+#content div.product div.summary {
+	float: none;
+	width:  100%!important;
+}

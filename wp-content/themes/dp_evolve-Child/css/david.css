@@ -1,0 +1,48 @@
+
+.static-box .wpb_wrapper{
+    min-height: 300px;
+    margin-top: -20px;
+}
+.lime-green, .lime-green h3, .lime-green h4, .lime-green a{
+  background-color: #5BC500;
+  color: #FFFFFF !important;
+  text-align: center;
+  text-decoration: none;
+}
+
+.lime-green a:hover{
+  text-decoration: underline;
+}
+
+.vc_col-sm-4 div{
+  height: 100%;
+}
+
+.circle{
+    padding: 25%;
+}
+.circle-parent{
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100%;
+}
+.circle-grandparent{
+  display: inline-block;
+}
+.circle-text{
+  display: inline-block;
+  vertical-align: top;
+}
+.circle-wrapper{
+/*  padding-left: 250px; */
+}
+.locator-hidden{
+  display: none !important;
+  opacity: 0;
+}
+
+.content>p:first-child{
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+}

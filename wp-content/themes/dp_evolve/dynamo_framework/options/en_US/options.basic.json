@@ -1,0 +1,49 @@
+[
+	{
+		"groupname": "Basic theme settings",
+		"groupdesc": "Basic theme parameters are configured here.",
+		"fields": [
+		    {
+				"name": "template_options_saved",
+				"type": "Text",
+				"label": "Template options are saved",
+				"tooltip": "",
+				"default": "Y",
+				"visibility": "breadcrumbs_state=Z"
+			},
+			{
+				"name": "template_style",
+				"type": "ThemeStyle",
+				"label": "Theme Style",
+				"tooltip": "Select a default theme style from the list provided.",
+				"default": "style0"
+			},
+			{
+				"name": "breadcrumbs_state",
+				"type": "Select",
+				"label": "Conditional Breadcrumbs Display",
+				"tooltip": "Enable display of breadcrumbs in the theme.",
+				"default": "Y",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"Y": "Enabled",
+						"N": "Disabled",
+						"rule": "Conditional rule"
+					}
+				}
+			},
+			{
+				"name": "breadcrumbs_staterule",
+				"type": "RawText",
+				"label": "Breadcrumbs Display",
+				"tooltip": "Enable display of breadcrumbs on specific pages.",
+				"default": "!is_home() and !is_single()",
+				"class": "",
+				"visibility": "breadcrumbs_state=rule"
+			}
+
+		]
+	}
+]

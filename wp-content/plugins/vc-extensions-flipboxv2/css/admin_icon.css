@@ -1,0 +1,16 @@
+.cq_vc_flipboxv2_item {
+    background-image: url(../img/icon_flipboxv2_item.png) !important;
+    background-size: 32px;
+}
+.cq_vc_flipboxv2 {
+    background-image: url(../img/icon_flipboxv2.png) !important;
+    background-size: 32px;
+}
+
+.cqadmin-col-offset{
+    margin: 12px 0;
+}
+.cqadmin-firstcol-offset{
+    margin-bottom: 12px;
+}
+

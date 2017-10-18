@@ -1,0 +1,232 @@
+[
+	{
+		"groupname": "Theme branding",
+		"groupdesc": "You can configure here options connected with theme branding.",
+		"fields": [
+			{
+				"name": "branding_logo_type",
+				"type": "Select",
+				"label": "Theme logo type",
+				"tooltip": "Select the type of theme logo.",
+				"default": "css",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"css": "Defined in the CSS code",
+						"image": "Image logo",
+						"text": "Text logo",
+						"none": "None"
+					}
+				}
+			},
+			{
+				"name": "branding_logo_image",
+				"type": "Media",
+				"label": "Theme logo image",
+				"tooltip": "Select the image for the theme logo.",
+				"default": "",
+				"class": "",
+				"visibility": "branding_logo_type=image"
+			},
+			{
+				"name": "branding_logo_image_width_height",
+				"type": "WidthHeight",
+				"label": "Theme logo size",
+				"tooltip": "Specify the theme logo dimensions.",
+				"default": "",
+				"class": "",
+				"visibility": "branding_logo_type=image",
+				"other": {
+					"size": "2",
+					"unit": "px"
+				}
+			},
+			{
+				"name": "branding_logo_top_margin",
+				"type": "Text",
+				"label": "Theme logo top margin",
+				"tooltip": "Specify top margin of the main logo in px.",
+				"default": "30",
+				"class": "",
+				"visibility": "branding_logo_type=image"
+			},
+			{
+				"name": "branding_logo_text_value",
+				"type": "Text",
+				"label": "Your own logo text",
+				"tooltip": "Specify text of the main logo.",
+				"default": "",
+				"class": "",
+				"visibility": "branding_logo_type=text"
+			},
+			{
+				"name": "branding_logo_slogan_value",
+				"type": "Text",
+				"label": "Your own logo slogan",
+				"tooltip": "Specify text of the secondary logo.",
+				"default": "",
+				"class": "",
+				"visibility": "branding_logo_type=text"
+			},
+			{
+				"name": "branding_favicon",
+				"type": "Media",
+				"label": "Page favicon",
+				"tooltip": "Select the favicon for your page (it must be a proper *.ICO file with size 16x16px.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "template_copyright_text",
+				"type": "Textarea",
+				"label": "Copyright text",
+				"tooltip": "Specify the content of the theme footer.",
+				"default": "Copyright © 2012 Your Company Name. All rights reserved.",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "template_footer_logo",
+				"type": "Select",
+				"label": "Footer logo",
+				"tooltip": "Select the type of footer logo.",
+				"default": "css",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"css": "Defined in the CSS code",
+						"image": "Image logo",
+						"no": "None"
+					}
+				}
+			},
+			{
+				"name": "template_footer_logo_image",
+				"type": "Media",
+				"label": "Footer logo image",
+				"tooltip": "Select the image for the theme logo.",
+				"default": "",
+				"class": "",
+				"visibility": "template_footer_logo=image"
+			},
+			{
+				"name": "footer_logo_image_width_height",
+				"type": "WidthHeight",
+				"label": "Footer logo size",
+				"tooltip": "Specify the footer logo dimensions.",
+				"default": "",
+				"class": "",
+				"visibility": "template_footer_logo=image",
+				"other": {
+					"size": "2",
+					"unit": "px"
+				}
+			}
+
+		]
+	},
+	{
+		"groupname": "Back-end branding",
+		"groupdesc": "Configure options associated with back-end styling.",
+		"fields": [
+			{
+				"name": "branding_admin_page_template_name",
+				"type": "Text",
+				"label": "Theme name",
+				"default": "Evolve",
+				"tooltip": "Specify the theme name visible in admin page."
+			},
+			{
+				"name": "branding_admin_page_slogan",
+				"type": "Text",
+				"label": "Slogan",
+				"tooltip": "Specify the text visible in admin page header after the theme name.",
+				"default": "News and Magazine Wordpress Theme"
+			},
+			
+			{
+				"name": "branding_login_page_image",
+				"type": "Media",
+				"label": "Login Page Logo",
+				"tooltip": "Select a logo image for the login page.",
+				"default": "",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "branding_login_page_image_width_height",
+				"type": "WidthHeight",
+				"label": "Login Page Logo Size (optional)",
+				"tooltip": "Specify dimensions for the login page logo.",
+				"default": "",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"size": "2",
+					"unit": "px"
+				}
+			},
+			{
+				"name": "branding_admin_page_image",
+				"type": "Media",
+				"label": "Admin Panel Logo (16x16px).",
+				"tooltip": "Select a logo image for the admin panel (ideally 16x16 pixels).",
+				"default": "",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "branding_admin_page_image_width_height",
+				"type": "WidthHeight",
+				"label": "Admin Panel Logo Size (optional)",
+				"tooltip": "Specify dimensions of the admin panel logo.",
+				"default": "",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"size": "2",
+					"unit": "px"
+				}
+			},
+	{
+				"name": "show_documentation_link",
+				"type": "Switcher",
+				"label": "Display link to documentation",
+				"tooltip": "Enable the display link to documentation in admin panel.",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+	{
+				"name": "theme_documentation_link",
+				"type": "Text",
+				"label": "Link to theme documentation",
+				"default": "http://www.dynamicpress.eu/documentation/evolve/doc/",
+				"tooltip": "Specify the link to theme documentation.",
+				"visibility": "show_documentation_link=Y"
+			},
+
+	{
+				"name": "show_theme_author_link",
+				"type": "Switcher",
+				"label": "Display link to theme author",
+				"tooltip": "Enable the display link to theme author in admin panel.",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "theme_author_link",
+				"type": "Text",
+				"label": "Link to theme author page",
+				"default": "http://themeforest.net/user/dynamicpress",
+				"tooltip": "Specify the link to theme author page.",
+				"visibility": "show_theme_author_link=Y"
+			}
+
+
+		]
+	}
+]

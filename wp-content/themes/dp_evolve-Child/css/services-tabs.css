@@ -1,0 +1,139 @@
+.nav-tabs>li{
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-tabs{
+  width: 100%;
+  margin-left: 0;
+  padding-left: 0;
+}
+.tab-pane{
+  display: none;
+
+}
+.tab-pane.active{
+  display: block;
+  width: 100%;
+}
+
+#dp-mainbody-columns>section, #dp-mainbody, #landingPageTabs{
+  margin:0 !important;
+  padding:0 !important;
+  width:100% !important;
+}
+
+
+
+
+
+h2.service-h2 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+.inner h2 {
+    border-left: none;
+    color: #84d320;
+    text-transform: uppercase;
+    padding-left: 0;
+}
+.page-content main ul.nav-tabs{
+    border:none;
+}
+
+.page-content main ul.nav-tabs>li{
+    margin:0;
+    width:100%;
+    border-radius:0;
+    background-color: transparent;
+    border:2px solid #ffffff;
+    border-top:0;
+    border-bottom:0;
+    padding:0;
+    position:relative;
+    height:124px;
+}
+.page-content main ul.nav-tabs>li:before{
+    display:none;
+}
+.page-content main ul.nav-tabs>li a{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-color:#83c523;
+    border:none;
+    border-radius: 0;
+}
+.page-content main ul.nav-tabs>li a:hover{
+    background-color: #bdec78;
+    border:none;
+    border-radius:0;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+.page-content main ul.nav-tabs>li.active a{
+    background-color:#bdec78;
+    border:none;
+}
+.page-content main ul.nav-tabs>li a h3{
+    position: absolute;
+    color:#000000;
+    width:100%;
+    padding:0 5%;
+    margin:0;
+    border:none;
+    border-radius:0;
+    text-transform:uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    top:50%;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align:center;
+}
+
+.page-content main .tab-content .service-title{
+    color:#327bca;
+    text-align:center;
+    font-weight: bold;
+    margin: 60px 0 45px;
+
+}
+.page-content main .tab-content .service-images .service-image{
+    padding: 2px;
+}
+.page-content main .tab-content .service-description{
+    padding: 40px;
+}
+.page-content main .tab-content .service-description p{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+@media screen and (max-width: 767px){
+
+
+    .page-content main ul.nav-tabs>li{
+        width:100% !important;
+    }
+
+    .page-content main .tab-content .service-description{
+        padding: 20px 0;
+    }
+
+
+    .page-content main .urgent-care .phone-home{
+        font-size:36px;
+    }
+
+
+}

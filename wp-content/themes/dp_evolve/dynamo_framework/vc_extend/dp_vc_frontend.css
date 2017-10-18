@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Elements styles */ 
+
+/* Row */
+.wpb_row.vc_row-fluid { position:relative;margin:0 -15px; }
+.wpb_row.vc_row-fluid:after{content: " ";
+   display: table;
+   clear: both;}
+
+/** Tabs/Tour/Accordion Common **/
+.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav {z-index:1}
+.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav a,
+.wpb_content_element .wpb_accordion_header a {
+  padding: 10px 20px;
+  
+}
+.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header,
+.wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tab {
+  background-color: #ffffff;
+  border:1px solid #eceef0;
+  border-radius: 2px;
+  margin-top:-1px;
+  
+}
+/** Tabs **/
+.wpb_tabs .wpb_tabs_nav li {
+  background-color: #F2F4F6;
+  border:1px solid #F2F4F6;
+}
+.wpb_tabs .wpb_tabs_nav .ui-tabs-active {background-color:#fff!important; border:1px solid #eceef0; border-bottom-color:#FFF}
+.wpb_tabs .wpb_tabs_nav li a { color:#848688; font-size:14px;}
+.wpb_tabs .wpb_tabs_nav .ui-tabs-active li a { color:#000!important;}
+
+/** Tour **/
+.wpb_tour .wpb_tabs_nav {
+  float: left;
+  width: 31.666666666666668%;
+}
+.wpb_tour .wpb_tabs_nav li {
+ 	 margin: 0 0 0 0;
+	 background-color: #FFF;
+  border:1px solid #F2F4F6;
+}
+.wpb_tour .wpb_tour_tabs_wrapper .wpb_tab {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  float: left;
+  width: 68.33333333333333%;
+  padding: 0 0 0 21.739130434782606px;
+  border:1px solid #eceef0;
+  min-height:100px;
+  margin-left:-1px;
+}
+.wpb_tour .wpb_tabs_nav .ui-tabs-active {background-color:#F2F4F6!important; border:1px solid #F2F4F6;color:#fff;}
+.wpb_tour .wpb_tabs_nav li a { color:#848688; font-size:14px;}
+.wpb_tour .wpb_tabs_nav .ui-tabs-active li a { color:#fff!important;}
+.wpb_tour_next_prev_nav {
+  margin-left: 31.666666666666668%;
+  padding-left: 21.739130434782606px;
+  font-size: 80%;
+}
+.wpb_tour_next_prev_nav a {
+  display: none;
+}
+
+/** Accordion **/
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header {
+  margin: 0;
+  padding-top: 0;
+  color: #848688;
+}
+.wpb_accordion .wpb_accordion_wrapper .ui-accordion-header-active {
+	background-color:#5F8CB4;
+	border-color:#5F8CB4;
+	color:#fff!important;
+}
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a {
+  padding-left: 1em;
+  color: #848688;
+  font-size:14px;
+}
+.wpb_accordion .wpb_accordion_wrapper .ui-accordion-header-active a { color:#fff!important;}
+.wpb_accordion_content {border:1px solid #eceef0; border-top:none;}
+.wpb_accordion_section {margin-bottom:15px!important;}
+.wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon,
+.wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0.7em;
+  top: 0.4em;
+  background-image:none;
+}
+.wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon:before {
+	font-family: "fontello";
+	content: '\e9a0';
+	font-size: 20px;
+}
+.wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon:before {
+	font-family: "fontello";
+	font-size: 20px;
+    content: '\e9a3';
+}
+
+
+/* Toggle 
+---------------------------------------------------------- */
+.wpb_toggle,
+#content h4.wpb_toggle,
+.wpb_toggle_content {
+  background: none;
+  padding-left: 0px;
+}
+
+.wpb_toggle:before {
+ font-family: "fontello";
+	content: '\e9a0';
+	font-size: 20px;
+	margin-right:10px;
+}
+.wpb_toggle.wpb_toggle_title_active:before {
+font-family: "fontello";
+	font-size: 20px;
+    content: '\e9a3';
+}
+
+.vc-carousel-indicators li {
+  border: 1px solid #5F8CB4;
+  background-color: #5F8CB4;
+}
+.vc-carousel-indicators .vc-active {
+  border: 1px solid #5F8CB4;
+  background-color: transparent;
+}
+.tabicon {margin-right:4px;margin-left:-3px;font-size:18px;line-height:14px;}
+
+.wpb_gmaps_widget .wpb_wrapper {
+  background-color: #f7f7f7;
+  padding: 0px;
+}
+element.style {
+}
+.vc_progress_bar .vc_single_bar {color:#fff;}
+
+.dp-page.vc {padding-left:15px!important; padding-right:15px!important;}
+
+/* Flex Slider */
+.wpb_gallery .flexslider {border: none; -webkit-box-shadow: none; -moz-box-shadow: none; -o-box-shadow: none; box-shadow: none;}
+.wpb_gallery .flex-control-paging li a { background: #e5e5e5;-webkit-box-shadow: none; -moz-box-shadow: none; -o-box-shadow: none; box-shadow: none;}
+.wpb_gallery .flex-control-paging li a:hover { background: #999;}
+.wpb_gallery .flex-control-paging li a.flex-active { background: #5F8CB4;cursor: default; }
+.wpb_gallery .flex-direction-nav a {	display: block;
+	height: 50px;
+	width: 50px;
+	-webkit-transition:all 0.2s ease 0s; 
+	-moz-transition:all 0.2s ease 0s; 
+	-o-transition:all 0.2s ease 0s; 
+	line-height:40px;
+	text-indent:0;
+	color: #fff; 
+	float:left;
+	font-size:0px;
+	text-align: center;
+	background-image:none;
+	}
+.wpb_gallery .flex-direction-nav .flex-next {	border: 2px solid #fff;
+	border-radius:50%;
+	right: 10px; 
+	opacity:0;
+	text-align:center;
+	background-color:transparent;}
+	
+.wpb_gallery .flex-direction-nav .flex-next:before {
+	content: '\e9ff';
+	font-family: 'fontello'; 
+	font-size:20px!important; 
+	line-height:45px!important;
+	color:#fff;
+	-webkit-transition:all 0.2s ease 0s; 
+	-moz-transition:all 0.2s ease 0s; 
+	-o-transition:all 0.2s ease 0s; 
+
+	}
+.wpb_gallery .flex-direction-nav .flex-prev {opacity:1;left: 0;border: 2px solid #fff;
+	border-radius:50%;
+	left: 10px; 
+	opacity:0;
+	text-align:center;
+	background-color:transparent;}
+.wpb_gallery .flex-direction-nav .flex-prev:before {
+	content: '\e9fe';
+	font-family: 'fontello'; 
+	font-size:20px!important; 
+	line-height:45px!important;
+	color:#fff;
+	-webkit-transition:all 0.2s ease 0s; 
+	-moz-transition:all 0.2s ease 0s; 
+	-o-transition:all 0.2s ease 0s; 
+
+	}
+.wpb_gallery .flex-direction-nav .flex-next:hover {opacity:1}
+.wpb_gallery .flex-direction-nav .flex-next:hover:after {color:#fff;}
+.wpb_gallery .flex-direction-nav .flex-prev:hover {opacity:1}
+.wpb_gallery .flex-direction-nav .flex-prev:hover:after {color:#fff;}
+
+.nav-none .flex-direction-nav, .nav-none .flex-control-paging, .nav-none .nivo-directionNav, .nav-none .nivo-controlNav {display:none}
+.nav-dir .flex-control-paging, .nav-dir .nivo-controlNav {	display:none}
+.nav-pag .flex-direction-nav, .nav-pag .nivo-directionNav{	display:none}
+
+
+
+/* VC Progress Bar */
+
+.accented .vc_bar {background-color: #eb5a55!important}
+
+/* Parallax stuff */
+.parallax-bg {
+width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0; 
+}
+
+.dp-page.vc {padding-left:15px!important; padding-right:15px!important; box-sizing:border-box;}
+.happy-clients-cite {width:97%}
+
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {margin-bottom:0}

@@ -1,0 +1,79 @@
+[
+	{
+		"family": "color",
+		"family_desc": "Theme color",
+		"family_tooltip": "You can select one of the theme colors",
+		"styles": [
+			{
+				"name": "Default (as set in admin panel)",
+				"value": "style0",
+				"file": "style0.css"
+			},
+			{
+				"name": "Orange",
+				"value": "style1",
+				"file": "style1.css"
+			},
+			{
+				"name": "Green",
+				"value": "style2",
+				"file": "style2.css"
+			},
+			{
+				"name": "Blue",
+				"value": "style3",
+				"file": "style3.css"
+			},
+			{
+				"name": "Yellow",
+				"value": "style4",
+				"file": "style4.css"
+			},
+			{
+				"name": "Navy",
+				"value": "style5",
+				"file": "style5.css"
+			},
+			{
+				"name": "Beige",
+				"value": "style6",
+				"file": "style6.css"
+			},
+			{
+				"name": "Red",
+				"value": "style7",
+				"file": "style7.css"
+			},
+			{
+				"name": "Cyan",
+				"value": "style8",
+				"file": "style8.css"
+			},
+			{
+				"name": "Pink",
+				"value": "style9",
+				"file": "style9.css"
+			},
+			{
+				"name": "Brown",
+				"value": "style10",
+				"file": "style10.css"
+			},
+			{
+				"name": "Olive",
+				"value": "style11",
+				"file": "style11.css"
+			},
+			{
+				"name": "Purple",
+				"value": "style12",
+				"file": "style12.css"
+			},
+			{
+				"name": "Gray",
+				"value": "style13",
+				"file": "style13.css"
+			}
+		]
+	}
+]

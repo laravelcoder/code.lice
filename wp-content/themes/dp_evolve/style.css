@@ -1,0 +1,39 @@
+/*
+Theme Name: DP Evolve
+Theme URI: http://www.dynamicpress.eu
+Description: Responsive multipurpose Wordpress.
+License: GNU GPL v.2.0
+License URI: LICENSE.txt
+Version: 4.2
+Author: DynamicPress
+Author URI: http://www.dynamicpress.eu
+Tags: three-columns, responsive-layout
+*/
+
+/**
+ *
+ * Basic code convention:
+ *
+ * sel {
+ * // rules in the alphabetic order
+ * }
+ *
+ * Content of the CSS files
+ * 
+ * 0. Normalize CSS styles (normalize.css)
+ * 1. Global elements (template.css)
+ * 2. Template containers (template.css)
+ * 3. Template structure (template.css) 
+ * 4. Widget styles (template.css)
+ * 5. Wordpress elements styling (wp.css)
+ * 6. Shortcodes (shortcodes.*.css)
+ * 7. Template additional features styles (stuff.css)
+ * 8. Additional WP extensions styles (wp.extensions.css)
+ * 9. (optional) Additional 3rd party extensions styles (extensions.css)
+ * 10. Tablet code (tablet.css)
+ * 11. Mobile code (mobile.css)
+ * 12. IE code fixes (ie*.css)
+ * 13. Template colours and styles (style*.css)
+ * 14. RTL support (rtl.css)
+ * 15. (optional) Override for all CSS files (override.css)
+ **/

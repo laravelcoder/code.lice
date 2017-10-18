@@ -1,0 +1,118 @@
+.dp-nsp-col {
+	border-right: 1px solid #ddd;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	        box-sizing: border-box;
+	float: left;
+	padding: 0 10px 0 0;
+	width: 40%;
+}
+
+.dp-nsp-col.dp-slideshow, .dp-nsp-col.dp-showbiz {
+	border-right: none;
+	float: none;
+	width: 100%;
+}
+
+.dp-nsp-col + .dp-nsp-col {
+	border-right: none;
+	padding: 0 0 0 10px;
+	width: 60%;
+}
+
+hr.clear {
+	border: none;
+	border-top: 3px solid #ddd;
+	clear: both;
+	display: block;
+}
+
+.dp-nsp-col input.short {
+	width: 32px;
+}
+
+.dp-nsp-col input.medium {
+	width: 72px;
+}
+
+.dp-nsp-col input.long {
+	width: 120px;
+}
+.dp-nsp-col label.fix-medium {
+ 	display: block;
+    float: left;
+	width: 90px;
+	padding-top:3px;
+}
+.dp-nsp-col .dp-indent {
+	padding-left: 72px!important;
+}
+
+.dp-nsp-col + .dp-nsp-col p > label:first-child {
+	display: inline-block;
+	min-width: 72px;
+	text-align: right;
+}
+
+.dp-nsp-col + .dp-nsp-col p.dp-indent > label:first-child {
+	text-align: left;
+}
+
+.dp-nsp-col .dp-right {
+	float: right;
+}
+
+.dp-nsp-col textarea {
+	width: 100%;
+}
+
+
+.dp-nsp-col h3 {
+	border-top: 1px solid #ddd;
+	margin: 0;
+	padding: 10px 0;
+}
+
+.dp-nsp-col h3:first-child {
+	border-top: none;
+	padding: 0 0 10px 0;
+}
+
+
+
+
+/* WP 3.8 back-end adjustments */
+body.branch-3-8 .dp-nsp-col,
+body.branch-3-8 .dp-nsp-col + .dp-nsp-col,
+body.branch-3-9 .dp-nsp-col,
+body.branch-3-9 .dp-nsp-col + .dp-nsp-col {
+        padding-top: 12px;
+}
+
+
+body.wp-admin.branch-3-8 .dp-nsp-col select,
+body.wp-admin.branch-3-9 .dp-nsp-col select {
+        font-size: 12px;
+}
+
+
+body.wp-admin.branch-3-8 .dp-nsp-col input.short,
+body.wp-admin.branch-3-9 .dp-nsp-col input.short {
+        width: 35px;
+}
+
+
+@media screen and (max-width: 782px) {
+        body.wp-admin.branch-3-8 #wpbody .dp-nsp-col select,
+		body.wp-admin.branch-3-9 #wpbody .dp-nsp-col select {
+                font-size: 11px;
+                height: 28px;
+        }
+        
+        body.wp-admin.branch-3-8 .dp-nsp-col input,
+		body.wp-admin.branch-3-9 .dp-nsp-col input {
+                padding: 3px 5px;
+        }
+}

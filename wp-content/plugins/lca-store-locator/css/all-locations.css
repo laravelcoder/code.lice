@@ -1,0 +1,110 @@
+.plugin_config {
+  padding-right: 20px; }
+  .plugin_config.loading {
+    position: relative; }
+    .plugin_config.loading:after {
+      content: " ";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.75);
+      top: 0;
+      left: 0;
+      z-index: 10; }
+    .plugin_config.loading:before {
+      content: " ";
+      position: absolute;
+      width: 200px;
+      height: 150px;
+      background-image: url("/wp-content/plugins/lca-store-locator/img/loading.gif");
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 11; }
+  .plugin_config #allLocations {
+    position: relative; }
+    .plugin_config #allLocations .alert {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+  .plugin_config #locations table {
+    width: 100%; }
+    .plugin_config #locations table th {
+      text-align: left; }
+  .plugin_config #numOfResults {
+    float: right;
+    margin-bottom: 0; }
+  .plugin_config .results-per-page {
+    margin: 6px 6px 6px 0; }
+  .plugin_config .pagination {
+    margin: 6px 0; }
+    .plugin_config .pagination .ellipse input {
+      padding-top: 0;
+      padding-bottom: 0;
+      height: 21px;
+      width: 50px; }
+    .plugin_config .pagination .ellipse input[type='number'] {
+      -moz-appearance: textfield; }
+    .plugin_config .pagination .ellipse input::-webkit-outer-spin-button,
+    .plugin_config .pagination .ellipse input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0; }
+  .plugin_config #productListContainer #inputProducts {
+    display: none; }
+  .plugin_config #productListContainer .list {
+    height: 206px;
+    overflow-y: auto; }
+  .plugin_config #locationModal .modal-content .modal-body {
+    min-height: 626px; }
+    .plugin_config #locationModal .modal-content .modal-body #map {
+      width: 388px;
+      height: 294px; }
+    .plugin_config #locationModal .modal-content .modal-body .glyphicon-remove-circle {
+      cursor: pointer; }
+  .plugin_config #myFilterModal .country-filter {
+    margin-bottom: 15px; }
+    .plugin_config #myFilterModal .country-filter .country-name {
+      margin-left: 20px; }
+  .plugin_config #importModal {
+    transform: translateY(-50%);
+    top: 50%; }
+    .plugin_config #importModal .progress {
+      width: 100%;
+      transform: translateY(-50%);
+      margin-top: 20px; }
+    .plugin_config #importModal .uploading-log {
+      width: 100%;
+      color: #000000;
+      font-size: 14px;
+      line-height: 20px;
+      height: 200px;
+      overflow-y: auto; }
+  .plugin_config .modal.loading {
+    overflow: hidden; }
+    .plugin_config .modal.loading .modal-dialog:after {
+      content: "parsing";
+      text-indent: -9999px;
+      left: 0;
+      top: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.75);
+      z-index: 1000;
+      border-radius: 6px; }
+    .plugin_config .modal.loading .modal-dialog:before {
+      content: "parsing";
+      text-indent: -9999px;
+      left: 0;
+      top: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url("/wp-content/plugins/lca-store-locator/img/loading.gif");
+      z-index: 1001;
+      background-position: center;
+      background-repeat: no-repeat; }
+
+/*# sourceMappingURL=all-locations.css.map */
